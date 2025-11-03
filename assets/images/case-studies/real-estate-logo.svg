@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 408.44 330.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        font-family: Poppins-Bold, Poppins;
+        font-size: 98.25px;
+      }
+
+      .cls-3 {
+        font-family: Gilroy-Light, Gilroy;
+        font-size: 42.98px;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="239.65" y1="216.43" x2="56.23" y2="33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e4c57d"/>
+      <stop offset="1" stop-color="#a68b4f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="298.43" y1="157.65" x2="115.01" y2="-25.77" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="228.82" y1="227.27" x2="45.39" y2="43.84" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <polygon class="cls-5" points="227.78 62.8 235.02 54.45 187.8 0 34.93 176.28 82.47 176.28 204.33 35.76 227.78 62.8"/>
+        <polygon class="cls-1" points="373.51 78.59 305.36 0 152.49 176.28 200.03 176.28 321.89 35.76 359.03 78.59 373.51 78.59"/>
+        <polygon class="cls-4" points="110.24 62.78 110.24 47.43 60.47 47.43 60.47 120.18 110.24 62.78"/>
+      </g>
+      <g>
+        <text class="cls-2" transform="translate(0 270.95)"><tspan x="0" y="0">AVENUE</tspan></text>
+        <text class="cls-3" transform="translate(0 314.35)"><tspan x="0" y="0">REALESTATE</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

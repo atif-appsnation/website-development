@@ -1,0 +1,32 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+Redirect 301 /mover-app /case-studies/mover-app
+Redirect 301 /mover-web /case-studies/mover-web
+Redirect 301 /gym-web /case-studies/gym-web
+Redirect 301 /gym-app /case-studies/gym-app
+Redirect 301 /loyalty-web /case-studies/loyalty-web
+Redirect 301 /loyalty-app /case-studies/loyalty-app
+Redirect 301 /real-estate-web /case-studies/real-estate-web
+Redirect 301 /real-estate-app /case-studies/real-estate-app
+Redirect 301 /travel-agency-web /case-studies/travel-agency-web
+Redirect 301 /travel-agency-app /case-studies/travel-agency-app
