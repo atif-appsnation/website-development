@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>App Development in Dubai | AppsNation</title>
+	<title>Web Development in Dubai | AppsNation</title>
 	<link href="assets/images/logo/favicon.webp" rel="icon">
 	<link rel="stylesheet" href="assets/css/admin.css">
 	<link rel="stylesheet" href="assets/css/all.min.css">
@@ -33,7 +33,7 @@
 				<span>CALL US AT</span>
 				<span><a href="tel:+13237909803">+1 (323) 790-9803</a></span>
 			</div>
-			<button class="request-quote">REQUEST A QUOTE &gt;</button>
+			<button class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal">REQUEST A QUOTE &gt;</button>
 			<div class="support">
 				<span>24/7 Support</span>
 				<span><a href="mailto:sales@appsnation.co">sales@appsnation.co</a></span>
@@ -81,14 +81,14 @@
 	</div>
 	<!-- End Sidemenu -->
 
+	<!-- Start Breadcrumb -->
 	<section class="breadcrumb-areav2 dubai-banner">
-		
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-sm-12 col-xl-6 my-auto wow fadeIn">
 					<div class="bread-titlev2">
-						<h1 class="banner-heading pt-3" data-wow-delay=".2s">Mobile App Development Company in Dubai</h1>
-						<p class="mt20 text-white" data-wow-delay=".4s">AppsNation is a leading mobile app development company in Dubai, known for turning innovative ideas into powerful digital products. With expertise in wearables, cross-platform apps, smart contracts, and more, we deliver cutting-edge mobile solutions tailored to your business goals. Have an app idea? Let’s bring it to life together!</p>
+						<h1 class="banner-heading pt-3">Let’s Build Your Digital Foundation | A Website That Grows With Your Business</h1>
+						<p class="mt20 text-white">At AppsNation, we believe every brand deserves a website that performs as hard as you do. As a top-tier website development company in Dubai, we translate your business objectives into digital experiences that attract, convert, and retain customers.</p>
 					</div>
 					<div class="row mt-3">
 						<div class="col-md-4">
@@ -171,10 +171,10 @@
 			<div class="row">
 				<div class="col-lg-7 block-1 wow fadeIn my-auto">
 					<div class="common-heading text-l pl25">
-						<div data-text="Mobile" class="light-bg-text bg-text">
-							<h2>Top<span class="flup-theme"> Mobile App Development</span><br> Company in Dubai iOS & Android Experts</h2>
-						</div>
-						<p>In a rapidly evolving tech world, your business needs a partner that keeps up with change. At AppsNation, our skilled team of app developers in Dubai helps you meet your revenue goals with modern, high-performance mobile apps. Ready to build something great? Contact us today. </p>
+						<h2>Future-Ready Website with<span class="flup-theme"> Dubai’s Leading Web Development</span><br> Experts</h2>
+						<p>AppsNation is a trusted website development company in Dubai delivering high-performing, human-centered, and conversion-driven digital experiences. Our Dubai web development experts craft tailor-made platforms that turn your business vision into measurable growth.</p>
+						<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+						<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-5">
@@ -193,12 +193,12 @@
 			<div class="row">
 				<div class="col-lg-6 block-1 wow fadeIn my-auto">
 					<div class="common-heading text-l pl25">
-						<div data-text="Mobile" class="light-bg-text bg-text">
-							<h2 class="text-white">Grow Your Business with Expert <span class="flup-theme"> Mobile App Development</span> in Dubai</h2>
-						</div>
-						<p class="text-white">It looks like practically everyone is toting a smartphone nowadays; a whopping 96% of people are using them! Businesses are following the same pattern, with a decisive 84% recognizing that mobile apps are crucial for their triumph. In this digital age, the threat of lagging behind the competition is genuine. For both app creators and companies, embracing the mobile app wave is vital for achieving success.</p>
-						<p class="text-white">Teaming up with a top-notch mobile app development company in Dubai is the smartest move. They'll take your specific business requirements and transform them into cutting-edge app solutions, enabling you to be a front-runner in your field.</p>
-						<a href="{{url('/contact-us')}}" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3" data-wow-delay="0.8s">Get Consultation <i class="fas fa-chevron-right fa-ani"></i></a>
+						<h2 class="text-white">Empower Your Brand with <span class="flup-theme"> Dubai’s Leading Website Development</span> Company</h2>
+						<p class="text-white">In today’s digital-first world, your website isn’t just a presence — it’s your brand’s performance engine. At <b>AppsNation</b>, we redefine what a <b>website development company in Dubai</b> should deliver. Our team of <b>Dubai web development experts</b> blends creativity, strategy, and advanced technology to craft sites that engage visitors, elevate your credibility, and drive measurable growth.</p>
+						<p class="text-white">From responsive corporate websites and high-performing eCommerce platforms to custom web applications tailored to your workflow — we design and build digital experiences that move your business forward.</p>
+						<p class="text-white">Whether you need to revamp your online presence or develop a custom website solution in Dubai, AppsNation transforms your ideas into scalable, future-ready platforms that stand out in a competitive digital landscape.</p>
+						<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+						<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-6 block-1 wow fadeIn">
@@ -215,10 +215,8 @@
 			<div class="row justify-content-center">
 				<div class="col-12">
 					<div class="common-heading ptag">
-						<div data-text="Our Services" class="light-bg-text bg-text text-center">
-							<h2>Our Mobile App Development Services in <span>Dubai</span></h2>
-							<p>We design innovative, user-focused apps that exceed industry standards. From concept to deployment, our services in Dubai cover every aspect of custom app development.</p>
-						</div>
+						<h2>Transform Your Digital Presence with Our <span>Website Development Services in Dubai</span></h2>
+						<p>At <b>AppsNation</b>, we craft visually stunning, highly functional websites that turn visitors into loyal customers. From strategy and design to coding and deployment, our Dubai-based team delivers <b>custom website solutions</b> that align with your business goals and create measurable impact.</p>
 					</div>
 				</div>
 			</div>
@@ -228,16 +226,13 @@
 					<div class="card h-100">
 						<div class="card-body">
 							<div class="services-img-div">
-								<img src="assets/images/home/android-app-development-icon.svg" alt="Android App Development" class="img-fluid" width="100%" height="100%">
+								<img src="assets/images/home/android-app-development-icon.svg" alt="Corporate Website Development" class="img-fluid" width="100%" height="100%">
 							</div>
 							<div class="service-heading">
-								<h3>Android App Development</h3>
+								<h3>Corporate Website Development</h3>
 							</div>
 							<div class="services-text-div">
-								<p>At AppsNation, we use Kotlin and Java to build unique Android apps with interfaces that are both captivating and highly responsive. We offer Android app development services in Dubai, providing businesses with affordable solutions and features that enhance customer experiences, thereby ensuring repeat visits.</p>
-								<a href="{{url('/android-app-development')}}" class="mt20 link-prbs">Read More
-									<i class="fas fa fa-arrow-circle-right"></i>
-								</a>
+								<p>Make your brand unforgettable online. Our corporate website solutions combine sleek designs with intuitive navigation, responsive layouts, and robust security. We build sites that reflect your business identity and scale with your growth, ensuring you stand out in Dubai’s competitive market.</p>
 							</div>
 						</div>
 					</div>
@@ -246,16 +241,13 @@
 					<div class="card h-100">
 						<div class="card-body">
 							<div class="services-img-div">
-								<img src="assets/images/home/ios-app-development-icon.svg" alt="iOS App Development" class="img-fluid" width="100%" height="100%">
+								<img src="assets/images/home/ios-app-development-icon.svg" alt="E-commerce Website Development" class="img-fluid" width="100%" height="100%">
 							</div>
 							<div class="service-heading">
-								<h3>iOS App Development</h3>
+								<h3>E-commerce Website Development</h3>
 							</div>
 							<div class="services-text-div">
-								<p>We're really excited to help your business grow! Our iOS app development team, based right here in Dubai, uses Swift and the newest frameworks to build user-friendly, safe, and versatile apps for iPhones, iPads, Macs, and even Apple TV and Apple Watch.</p>
-								<a href="{{url('/ios-app-development')}}" class="mt20 link-prbs">Read More
-									<i class="fas fa fa-arrow-circle-right"></i>
-								</a>
+								<p>Drive sales and delight your customers with high-performance e-commerce websites. Our team develops <b>secure, mobile-optimized online stores</b> using Shopify, WooCommerce, and Magento, ensuring smooth checkout experiences, seamless integrations, and powerful analytics for smarter business decisions.</p>
 							</div>
 						</div>
 					</div>
@@ -264,16 +256,13 @@
 					<div class="card h-100">
 						<div class="card-body">
 							<div class="services-img-div">
-								<img src="assets/images/home/cross-platform-app-development-icon.svg" alt="Cross Platform App Development" class="img-fluid" width="100%" height="100%">
+								<img src="assets/images/home/cross-platform-app-development-icon.svg" alt="Custom Web Application Development" class="img-fluid" width="100%" height="100%">
 							</div>
 							<div class="service-heading">
-								<h3>Cross-Platform App Development</h3>
+								<h3>Custom Web Application Development</h3>
 							</div>
 							<div class="services-text-div">
-								<p>We develop fantastic apps that operate seamlessly on a wide range of devices, enabling you to connect with a larger audience without overspending. By utilizing frameworks such as React Native, our apps are not only enjoyable to use and packed with functionalities, but also cost-effective and consistently stable, regardless of the device they're used on.</p>
-								<a href="{{url('/cross-platform-app-development')}}" class="mt20 link-prbs">Read More
-									<i class="fas fa fa-arrow-circle-right"></i>
-								</a>
+								<p>Our custom web apps solve real business problems and provide your users with unmatched functionality. Using <b>modern frameworks like React, Angular, and Node.js</b>, we deliver scalable, interactive, and fast-performing solutions tailored to your Dubai-based business needs.</p>
 							</div>
 						</div>
 					</div>
@@ -282,16 +271,13 @@
 					<div class="card h-100">
 						<div class="card-body">
 							<div class="services-img-div">
-								<img src="assets/images/home/game-app-development-icon.svg" alt="Game App Development" class="img-fluid" width="100%" height="100%">
+								<img src="assets/images/home/game-app-development-icon.svg" alt="Responsive & Mobile-First Design" class="img-fluid" width="100%" height="100%">
 							</div>
 							<div class="service-heading">
-								<h3>Game App Development</h3>
+								<h3>Responsive & Mobile-First Design</h3>
 							</div>
 							<div class="services-text-div">
-								<p>Do you have a passion for gaming? So do we! We're excited to introduce our cutting-edge gaming app development services in Dubai. At AppsNation, we excel in crafting vast, engaging, and interactive open-world games that redefine the boundaries of gameplay. We bring gaming visions to life by utilizing powerful engines such as CryEngine, Unreal, and Unity.</p>
-								<a href="{{url('/game-app-development')}}" class="mt20 link-prbs">Read More
-									<i class="fas fa fa-arrow-circle-right"></i>
-								</a>
+								<p>Every website we build is fully responsive and designed with a <b>mobile-first approach</b>, guaranteeing flawless performance across all devices. We ensure your Dubai audience enjoys the same immersive experience whether on a smartphone, tablet, or desktop.</p>
 							</div>
 						</div>
 					</div>
@@ -300,16 +286,13 @@
 					<div class="card h-100">
 						<div class="card-body">
 							<div class="services-img-div">
-								<img src="assets/images/home/web-app-development-icon.svg" alt="Web App Development" class="img-fluid" width="100%" height="100%">
+								<img src="assets/images/home/web-app-development-icon.svg" alt="CMS & WordPress Development" class="img-fluid" width="100%" height="100%">
 							</div>
 							<div class="service-heading">
-								<h3>Web App Development</h3>
+								<h3>CMS & WordPress Development</h3>
 							</div>
 							<div class="services-text-div">
-								<p>Power up your business with our adaptable, ever-growing, and high-performance web app development services. Our state-of-the-art web solutions boost user engagement using push notifications and WebSockets, offering you a powerful web app development experience that's customized to fit your ever-changing business demands.</p>
-								<a href="{{url('/web-app-development')}}" class="mt20 link-prbs">Read More
-									<i class="fas fa fa-arrow-circle-right"></i>
-								</a>
+								<p>Take control of your content effortlessly. Our CMS solutions, especially WordPress-powered websites, allow you to <b>manage content efficiently</b>, optimize SEO, and make updates without depending on technical support—all while maintaining a professional, engaging website presence.</p>
 							</div>
 						</div>
 						
@@ -319,16 +302,13 @@
 					<div class="card h-100">
 						<div class="card-body">
 							<div class="services-img-div">
-								<img src="assets/images/home/wearable-app-development-icon.svg" alt="Wearable App Development" class="img-fluid" width="100%" height="100%">
+								<img src="assets/images/home/wearable-app-development-icon.svg" alt="Landing Page & Conversion Optimization" class="img-fluid" width="100%" height="100%">
 							</div>
 							<div class="service-heading">
-								<h3>Wearable App Development</h3>
+								<h3>Landing Page & Conversion Optimization</h3>
 							</div>
 							<div class="services-text-div">
-								<p>We're at the forefront of innovation, crafting cutting-edge wearable apps. Our team of developers specializes in building intelligent, interactive apps that deliver real-time information right to your wrist. This is truly next-generation wearable app development, done exceptionally well.</p>
-								<a href="{{url('/wearable-app-development')}}" class="mt20 link-prbs">Read More
-									<i class="fas fa fa-arrow-circle-right"></i>
-								</a>
+								<p>Your website should do more than look good—it should convert. We design high-converting landing pages optimized for leads, sign-ups, and sales. With persuasive copy, strategic CTAs, and UX-focused design, we help your Dubai business achieve measurable growth online.</p>
 							</div>
 						</div>
 					</div>
@@ -337,55 +317,23 @@
 					<div class="card h-100">
 						<div class="card-body">
 							<div class="services-img-div">
-								<img src="assets/images/home/ar-app-development-icon.svg" alt="AR App Development" class="img-fluid" width="100%" height="100%">
+								<img src="assets/images/home/ar-app-development-icon.svg" alt="Web Maintenance & Support" class="img-fluid" width="100%" height="100%">
 							</div>
 							<div class="service-heading">
-								<h3>AR App Development</h3>
+								<h3>Web Maintenance & Support</h3>
 							</div>
 							<div class="services-text-div">
-								<p>Our cutting-edge augmented reality app development can give you a competitive edge. We're transforming the way people interact with digital content through our AR app development in Dubai, crafting authentic experiences that exceed expectations for top-notch user engagement and establishing new standards for exceptional app design.</p>
-								<a href="{{url('/ar-app-development')}}" class="mt20 link-prbs">Read More
-									<i class="fas fa fa-arrow-circle-right"></i>
-								</a>
+								<p>Our job isn’t done at launch. AppsNation offers <b>ongoing website support, updates, and performance monitoring</b>, so your site stays secure, fast, and optimized. Focus on your business while we keep your digital presence at peak performance.</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 mt-3 fadeIn">
-					<div class="card h-100">
-						<div class="card-body">
-							<div class="services-img-div">
-								<img src="assets/images/home/vr-app-development-icon.svg" alt="VR App Development" class="img-fluid" width="100%" height="100%">
-							</div>
-							<div class="service-heading">
-								<h3>VR App Development</h3>
-							</div>
-							<div class="services-text-div">
-								<p>At AppsNation, we don't hold back. Our VR developers use Vuforia and Unity 3D to create interactive experiences and custom mobile solutions. Choose our virtual reality services for an unmatched VR experience. Our advanced design ensures a hyper-real, bingeable future.</p>
-								<a href="{{url('/vr-app-development')}}" class="mt20 link-prbs">Read More
-									<i class="fas fa fa-arrow-circle-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 mt-3 fadeIn">
-					<div class="card h-100">
-						<div class="card-body">
-							<div class="services-img-div">
-								<img src="assets/images/home/mr-app-development-icon.svg" alt="MR App Development" class="img-fluid" width="100%" height="100%">
-							</div>
-							<div class="service-heading">
-								<h3>MR App Development</h3>
-							</div>
-							<div class="services-text-div">
-								<p>We're shaping the future with top-notch mixed reality app development, crafting innovative AR designs. In the Metaverse, our MR solutions deliver valuable, cutting-edge digital interactions, empowering communities, businesses, and creators with boundless virtual possibilities.</p>
-								<a href="{{url('/mr-app-development')}}" class="mt20 link-prbs">Read More
-									<i class="fas fa fa-arrow-circle-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>
+			</div>
+
+			<div class="row text-center mt-3">
+				<div class="col-12">
+					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 				</div>
 			</div>
 		</div>
@@ -398,9 +346,7 @@
 			<div class="row fadeIn">
 				<div class="col-12">
 					<div class="common-heading text-center">
-						<div data-text="Partners" class="dark-bg-text bg-text text-center">
-							<h2 class="text-white">We collaborate with the world's leading tech companies. Contact us to learn more!<span>World's Technology</span> Leaders</h2>
-						</div>
+						<h2 class="text-white">We collaborate with the world's leading tech companies. Contact us to learn more!<span>World's Technology</span> Leaders</h2>
 					</div>
 				</div>
 			</div>
@@ -440,96 +386,92 @@
 			<div class="row">
 				<div class="col-12 fadeIn">
 					<div class="common-heading">
-						<div data-text="Our Portfolio" class="light-bg-text bg-text text-center">
-							<h2 class="mb20 text-center">View our newest collection of creative work.</h2>
-						</div>
+						<h2 class="text-center">View Our Newest Collection of Creative Work.</h2>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<section class="container pb-5">
-			<ul class="nav nav-pills justify-content-center fadeIn" role="tablist">
-				<li class="nav-item">
-					<a class="nav-link active" data-bs-toggle="pill" href="#app">App</a>
-				</li>
-			</ul>
-			<div class="tab-content mt-5 wow fadeIn">
-				<div id="app" class="tab-pane active">
-					<div class="row mt60">
-						<div class="col-lg-12 col-sm-12 wptbb">
-							<div class="pbwide shadow bg-gradient1">
-								<div class="portfolio-item-info-tt">
-									<div class="logowide mb20">
-										<img src="assets/images/case-studies/gym-logo.webp" alt="Gym App" class="img-fluid" width="100%" height="100%">
-									</div>
-									<div class="widebloktag">
-										<span class="text-white">UI/UX Design</span>
-									</div>
-									<div class="widebloktag mt-4">
-										<span class="text-white">Mobile App Development</span>
-									</div>
-									<h3 class="mt30 mb30">Gym App</h3>
-									<p class="mb30 text-black">Self-care is essential, not a luxury. Let us help you build apps that act as fitness coaches. We simplify app development to create products that assist users in reaching their fitness goals and refine workout plans with effective training, following the latest gym app trends. Our gym app services in Dubai offer modern users personalized training and real-time coaching to help them achieve their fitness goals efficiently.</p>
-									<ul class="info-list-ul">
-										<li>Personalized workout programs</li>
-										<li>Buying extra features inside the app</li>
-										<li>Reminders that are smart</li>
-										<li>Nutrition and Meal Planning</li>
-									</ul>
-									<a href="{{url('/case-studies/gym-app')}}" class="btn-outline lnk mt30">View Case Study 
-										<i class="fas fa-chevron-right fa-icon"></i>
-										<span class="circle"></span>
-									</a>
-								</div>
-								<div class="portfolio-wide-image">
-									<div class="img-wide-blocktt tilt-outer">
-										<div class="innerwidedevice tilt-inner" data-tilt data-tilt-max="4" data-tilt-speed="1000" data-tilt-perspective="2000">
-											<div>
-												<img src="assets/images/home/gym-app.webp" alt="Gym App" class="img-fluid" width="100%" height="100%">
-											</div>
-										</div>
-									</div>
-								</div>
+		<section class="container">
+			<div class="row mt60">
+				<div class="col-lg-12 col-sm-12 wptbb">
+					<div class="pbwide shadow bg-gradient1">
+						<div class="portfolio-item-info-tt">
+							<div class="logowide mb20">
+								<img src="assets/images/case-studies/gym-web/header-logo.webp" alt="Gym App" class="img-fluid" width="100%" height="100%">
 							</div>
+							<div class="widebloktag">
+								<span class="text-white">UI/UX Design</span>
+							</div>
+							<div class="widebloktag mt-4">
+								<span class="text-white">Website Development</span>
+							</div>
+							<h3 class="mt30 mb30">Gym Web</h3>
+							<p class="mb30">More than just a fitness app, Gymnasium acts as your personal trainer, nutritionist, and motivational coach—all conveniently housed within a user-friendly interface.</p>
+							<ul class="info-list-ul">
+								<li>Content Management</li>
+								<li>User Management</li>
+								<li>Bookings Management</li>
+								<li>Promotions</li>
+							</ul>
+							<a href="{{url('/case-studies/gym-web')}}" class="btn-outline lnk mt30">View Case Study 
+								<i class="fas fa-chevron-right fa-icon"></i>
+								<span class="circle"></span>
+							</a>
 						</div>
-						<div class="col-lg-12 col-sm-12 wptbb">
-							<div class="pbwide shadow bg-gradient1">
-								<div class="portfolio-item-info-tt">
-									<div class="logowide mb20">
-										<img src="assets/images/case-studies/real-estate-logo.webp" alt="Real Estate App" class="img-fluid logowide" width="100%" height="100%">
-									</div>
-									<div class="widebloktag">
-										<span class="text-white">UI/UX Design</span>
-									</div>
-									<div class="widebloktag mt-4">
-										<span class="text-white">Mobile App Development</span>
-									</div>
-									<h3 class="mt30 mb30">Real estate app development</h3>
-									<p class="mb30 text-black">Our real estate apps are designed to make house hunters trust you to find their perfect match. We build apps that make users feel confident in your guidance, focusing on their needs and providing a great experience as they search for their dream home. We stay ahead with instant information and the latest real estate trends. Our apps feature cutting-edge tools like virtual tours and advanced property searches, showcasing our top-tier real estate app development in Dubai.</p>
-									<ul class="info-list-ul">
-										<li>Searching with a map interface</li>
-										<li>Virtual Tours and 3D Walkthroughs</li>
-										<li>Mortgage calculators</li>
-										<li>Safe Payment Gateway</li>
-									</ul>
-									<a href="{{url('/case-studies/real-estate-app')}}" class="btn-outline lnk mt30">View Case Study 
-										<i class="fas fa-chevron-right fa-icon"></i>
-										<span class="circle"></span>
-									</a>
-								</div>
-								<div class="portfolio-wide-image">
-									<div class="img-wide-blocktt tilt-outer">
-										<div class="innerwidedevice tilt-inner" data-tilt data-tilt-max="4" data-tilt-speed="1000" data-tilt-perspective="2000">
-											<div>
-												<img src="assets/images/home/real-estate-app.webp" alt="Real Estate App" class="img-fluid" width="100%" height="100%">
-											</div>
-										</div>
+						<div class="portfolio-wide-image">
+							<div class="img-wide-blocktt tilt-outer">
+								<div class="innerwidedevice tilt-inner" data-tilt data-tilt-max="4" data-tilt-speed="1000" data-tilt-perspective="2000">
+									<div>
+										<img src="assets/images/case-studies/gym-web/header-web.webp" alt="Gym Web" class="img-fluid" width="100%" height="100%">
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="col-lg-12 col-sm-12 wptbb">
+					<div class="pbwide shadow bg-gradient1">
+						<div class="portfolio-item-info-tt">
+							<div class="logowide mb20">
+								<img src="assets/images/case-studies/real-estate-web/header-logo.webp" alt="Real Estate Web" class="img-fluid" width="100%" height="100%">
+							</div>
+							<div class="widebloktag">
+								<span class="text-white">UI/UX Design</span>
+							</div>
+							<div class="widebloktag mt-4">
+								<span class="text-white">Website Development</span>
+							</div>
+							<h3 class="mt30 mb30">Real Estate Web</h3>
+							<p class="mb30">Discover Avenue, the ultimate app for all your property buying and selling needs.</p>
+							<ul class="info-list-ul">
+								<li>Dashboard</li>
+								<li>Properties Management</li>
+								<li>Mortgage</li>
+								<li>User Management</li>
+							</ul>
+							<a href="{{url('/case-studies/real-estate-web')}}" class="btn-outline lnk mt30">View Case Study 
+								<i class="fas fa-chevron-right fa-icon"></i>
+								<span class="circle"></span>
+							</a>
+						</div>
+						<div class="portfolio-wide-image">
+							<div class="img-wide-blocktt tilt-outer">
+								<div class="innerwidedevice tilt-inner" data-tilt data-tilt-max="4" data-tilt-speed="1000" data-tilt-perspective="2000">
+									<div>
+										<img src="assets/images/case-studies/real-estate-web/header-web.webp" alt="Real Estate Web" class="img-fluid" width="100%" height="100%">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row text-center mt-3">
+				<div class="col-12">
+					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 				</div>
 			</div>
 		</section>
@@ -542,9 +484,7 @@
 			<div class="row fadeIn">
 				<div class="col-12">
 					<div class="common-heading w-tdxt text-center">
-						<div data-text="Awards" class="dark-bg-text bg-text text-center">
-							<h2 class="text-white">We're the best <span>mobile app developers</span> in Dubai, and we're thrilled to be ranked number one! Get in touch with us.</h2>
-						</div>
+						<h2 class="text-white">We're the best <span>website developers</span> in Dubai, and we're thrilled to be ranked number one! Get in touch with us.</h2>
 					</div>
 				</div>
 			</div>
@@ -674,10 +614,8 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="common-heading ptag wow fadeIn">
-						<div data-text="Process" class="light-bg-text bg-text mt-5">
-							<h2>Our Proven <span>Mobile App </span>Development Process in Dubai</h2>
-						</div>
-						<p>AppsNation provides clients with a simple, agile process for Android app development, guided by a results-focused approach</p>
+						<h2>Our Proven <span>Website </span>Development Process in Dubai</h2>
+						<p>At <b>AppsNation</b>, we deliver websites that combine creativity, technology, and strategy. Our streamlined, results-driven process ensures your website not only looks amazing but also drives growth for your business.</p>
 					</div>
 				</div>
 			</div>
@@ -686,43 +624,56 @@
 					<div class="timeline wow fadeIn h-100">
 						<p class="timeline-year">01</p>
 						<h3 class="title">Requirement Analysis</h3>
-						<p class="description">We make apps by thinking about what users need and who will use them, depending on what your app is for. We figure out the parts, features, and how the user interface works, and we use the latest technology to build it. We also make UX/UI wireframes to show how users will move through the app and get it ready for lots of users and to work well, which will bring in more users and make better use of data for power saving.</p>
+						<p class="description">We begin by understanding <b>your business, audience, and objectives</b>. Our team identifies the core features your website needs and the user journeys that will convert visitors into customers. From wireframes to technical requirements, we create a blueprint for a website designed to perform in Dubai’s competitive digital landscape.</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 mt-3 mt-md-0">
 					<div class="timeline wow fadeIn h-100">
 						<p class="timeline-year">02</p>
-						<h3 class="title">App Development Strategies</h3>
-						<p class="description">Our developers are real experts when it comes to cloud-based solutions. This expertise allows them to use an iterative, agile approach to development, which means they can get new features out the door much faster. We put together detailed, innovation-focused plans to boost productivity and turn ideas into apps that can compete in the market.</p>
+						<h3 class="title">Strategy & Planning</h3>
+						<p class="description">Every successful website starts with a plan. Our experts develop a <b>detailed, actionable strategy</b> including platform choice, technology stack, content structure, SEO approach, and UX flow. By blending innovation with market insights, we ensure your website not only attracts visitors but keeps them engaged.</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 mt-3 mt-lg-0">
 					<div class="timeline wow fadeIn h-100">
 						<p class="timeline-year">03</p>
 						<h3 class="title">Wireframing And Designing</h3>
-						<p class="description">Our wireframes are thoughtfully crafted to deliver top-notch UI/UX designs. We aim for a harmonious balance in our designs, ensuring they're neatly organized, comprehensive, and easy to grasp. If you're looking to kickstart your mobile app project in Dubai, our seasoned app development team is ready to help bring your vision to life. We take your specific needs into account to create tailored app development solutions just for you.</p>
+						<p class="description">We turn ideas into visuals. Our designers craft <b>wireframes and prototypes</b> that focus on clean layouts, intuitive navigation, and brand alignment. Every design decision is made to maximize engagement, boost conversions, and reflect the quality your Dubai audience expects.</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 mt-3">
 					<div class="timeline wow fadeIn h-100">
 						<p class="timeline-year">04</p>
 						<h3 class="title">Development Phase</h3>
-						<p class="description">We possess the skills to create your applications without any hiccups. We leverage its ability to grow, its safety features, and its overall effectiveness. Both the server-side and client-side architectures we build are sturdy, guaranteeing a seamless experience for users. We take care of all the technical details, like managing databases and connecting various software components, so you can relax and let us deliver top-notch results.</p>
+						<p class="description">Our developers bring designs to life with <b>robust, scalable, and secure code</b>. We build both the front-end and back-end with performance, responsiveness, and SEO in mind. Whether it’s a corporate website, e-commerce store, or custom web app, we ensure every element works seamlessly across devices.</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 mt-3">
 					<div class="timeline wow fadeIn h-100">
 						<p class="timeline-year">05</p>
-						<h3 class="title">App Testing</h3>
-						<p class="description">We use our seasoned testing team to thoroughly check, refine, and release your app, guaranteeing top quality. We provide continuous feedback and testing to boost your app's performance, never settling for less. Our rigorous quality checks ensure the app meets industry benchmarks, delivering the excellence expected from expert mobile app creators.</p>
+						<h3 class="title">Testing & Quality Assurance</h3>
+						<p class="description">A great website isn’t just about looks—it’s about flawless performance. Our QA team runs <b>comprehensive tests</b>, including functionality, speed, security, and responsiveness. We fine-tune every detail so your website is fast, reliable, and ready to impress your users.</p>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4 mt-3">
 					<div class="timeline wow fadeIn h-100">
 						<p class="timeline-year">06</p>
-						<h3 class="title">App Deployment</h3>
-						<p class="description">Our apps undergo rigorous testing and maintenance for reliability and user experience prior to public release, guaranteeing top-notch quality. We dynamically scale backend infrastructure, including databases and APIs, to fine-tune app performance, a crucial element for app efficiency.</p>
+						<h3 class="title">Launch & Deployment</h3>
+						<p class="description">We don’t just publish your website; we launch it strategically. From server configuration to SEO-friendly optimization, our team ensures your site <b>performs perfectly from day one</b>. We monitor analytics and provide post-launch support to keep your website running smoothly and driving measurable results.</p>
 					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4 mt-3">
+					<div class="timeline wow fadeIn h-100">
+						<p class="timeline-year">07</p>
+						<h3 class="title">Maintenance & Optimization</h3>
+						<p class="description">Digital success is continuous. We provide <b>ongoing updates, security checks, and performance optimizations</b> to keep your website current, fast, and competitive in Dubai’s evolving market. Your website grows with your business—always ready for new opportunities.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center mt-3">
+				<div class="col-12">
+					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 				</div>
 			</div>
 		</div>
@@ -748,51 +699,50 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="common-heading ptag wow fadeIn text-center">
-						<div data-text="Services" class="light-bg-text bg-text mt-5 text-center">
-							<h2>Here are some of the services we offer in <span>Dubai.</span> Please feel free to get in touch with us.</h2>
-						</div>
+						<h2>Here are some of the services we offer in <span>Dubai.</span> Please feel free to get in touch with us.</h2>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row mt-5">
 				<div class="col-12">
 					<div class="owl-carousel owl-theme services-carousel">
 						<div class="item">
 							<img src="assets/images/locations/services/mobile-app-development.webp" alt="Mobile App Development" class="img-fluid" width="100%" height="100%">
 							<div class="text">
 								<h3>Mobile App Development</h3>
-								<a href="{{url('/mobile-app-development')}}" class="btn btn-light text-black">Read More <i class="fa-solid fa-arrow-right ps-2"></i></a>
 							</div>
 						</div>
 						<div class="item">
 							<img src="assets/images/locations/services/web-portal-development.webp" alt="Mobile App Development" class="img-fluid" width="100%" height="100%">
 							<div class="text">
 								<h3>Web Portal Development</h3>
-								<a href="{{url('/web-portal-app-development')}}" class="btn btn-light text-black">Read More <i class="fa-solid fa-arrow-right ps-2"></i></a>
 							</div>
 						</div>
 						<div class="item">
 							<img src="assets/images/locations/services/xr-app-development.png" alt="Mobile App Development" class="img-fluid" width="100%" height="100%">
 							<div class="text">
 								<h3>XR Development</h3>
-								<a href="{{url('/xr-app-development')}}" class="btn btn-light text-black">Read More <i class="fa-solid fa-arrow-right ps-2"></i></a>
 							</div>
 						</div>
 						<div class="item">
 							<img src="assets/images/locations/services/connected-devices.webp" alt="Mobile App Development" class="img-fluid" width="100%" height="100%">
 							<div class="text">
 								<h3>Connected Devices</h3>
-								<a href="{{url('/connected-devices')}}" class="btn btn-light text-black">Read More <i class="fa-solid fa-arrow-right ps-2"></i></a>
 							</div>
 						</div>
 						<div class="item">
 							<img src="assets/images/locations/services/design-and-animation-services.webp" alt="Mobile App Development" class="img-fluid" width="100%" height="100%">
 							<div class="text">
 								<h3>Design & Animation Services</h3>
-								<a href="{{url('/design-and-animation')}}" class="btn btn-light text-black">Read More <i class="fa-solid fa-arrow-right ps-2"></i></a>
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="row text-center mt-3">
+				<div class="col-12">
+					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 				</div>
 			</div>
 		</div>
@@ -806,11 +756,10 @@
 			<div class="row">
 				<div class="col-lg-6 block-1 wow fadeIn my-auto">
 					<div class="common-heading text-l pl25">
-						<div data-text="Partner" class="light-bg-text bg-text">
-							<h2 class="text-white">Team up with a Top-Tier<span class="flup-theme"> Mobile App Development</span> Firm in Dubai</h2>
-						</div>
+						<h2 class="text-white">Team up with a Top-Tier<span class="flup-theme"> Mobile App Development</span> Firm in Dubai</h2>
 						<p class="text-white">Join the ranks of hundreds of Dubai-based businesses that rely on AppsNation. We've not only met but surpassed their expectations. We're ready to hear about your business needs so our experts can develop innovative, scalable mobile applications that drive your success.</p>
-						<a href="{{url('/contact-us')}}" class="niwax-btn button-arounder btn mt-3 py-2 px-3">Get Consultation <i class="fas fa-chevron-right fa-ani"></i></a>
+						<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+						<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 					</div>
 				</div>
 			</div>
@@ -819,18 +768,20 @@
 	<!--End About-->
 
 	<!--Start Let's Work Together-->
-	<div class="row py-5 justify-content-center hire-developer">
-		<div class="col-lg-8">
-			<div class="free-cta-title v-center wow fadeIn">
-				<div class="row justify-content-center">
-					<div class="col-lg-8 my-auto">
-						<p class="text-center text-lg-start">Hire <span>mobile app</span> developers in Dubai.</p>
-					</div>
-					<div class="col-lg-4 text-center text-lg-start mt-5 mt-lg-0">
-						<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Let's Work Together
-							<i class="fas fa-chevron-right fa-icon"></i>
-							<span class="circle"></span>
-						</a>
+	<div class="container">
+		<div class="row py-5 justify-content-center hire-developer">
+			<div class="col-lg-9">
+				<div class="free-cta-title v-center wow fadeIn">
+					<div class="row d-flex justify-content-center">
+						<div class="col-lg-8">
+							<p class="text-center text-lg-start">Hire <span>Website</span> Developers in Dubai</p>
+						</div>
+						<div class="col-lg-4 text-center text-lg-start mt-5 mt-lg-0">
+							<a href="{{url('/contact-us')}}" class="btn-main button-arounder lnk">Let's Work Together
+								<i class="fas fa-chevron-right fa-icon"></i>
+								<span class="circle"></span>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -839,19 +790,16 @@
 	<!--End Let's Work Together-->
 
 	<!--Start Testinomial-->
-	<section class="testimonials-section-app pt100 pb-5">
+	<section class="testimonials-section-app py-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<div class="common-heading text-center">
-						<div data-text="Testimonials" class="dark-bg-text bg-text text-center">
-							<h2 class="text-white">Here's what our <span>clients</span> have to say about <span>AppsNation</span></h2>
-						</div>
+						<h2 class="text-white">Here's what our <span>clients</span> have to say about <span>AppsNation</span></h2>
 						<h5 class="text-white">Over 1200+ Satisfied Clients and Growing</h5>
 					</div>
 				</div>
 			</div>
-			
 			
 			<div class="testimonial-card-a owl-carousel owl-theme owl-theme">
 				<div class="owl-stage-outer">
@@ -868,7 +816,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Oluwasegun Adefisoye</h5>
-												<p>Nigeria</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>Nigeria</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -886,7 +835,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Juan</h5>
-												<p>Infinity Works</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>Infinity Works</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -904,7 +854,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Keifer Ninonuevo</h5>
-												<p>Sun Life</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>Sun Life</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -922,7 +873,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Futurealiti digital</h5>
-												<p>United States</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>United States</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -940,7 +892,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Mark DePeters</h5>
-												<p>United States</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>United States</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -958,7 +911,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Digi Divine</h5>
-												<p>Los Angeles</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>Los Angeles</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -976,7 +930,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>DigiTroopers</h5>
-												<p>USA</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>USA</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -994,7 +949,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Oluwasegun Adefisoye</h5>
-												<p>Nigeria</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>Nigeria</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -1012,7 +968,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Juan</h5>
-												<p>Infinity Works</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>Infinity Works</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -1030,7 +987,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Keifer Ninonuevo</h5>
-												<p>Sun Life</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>Sun Life</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -1048,7 +1006,8 @@
 											<!-- <div class="user-image bdr-radius"> <img src="images/user-thumb/girl.webp" alt="girl" class="img-fluid rounded-circle" /> </div> -->
 											<div class="media-body user-info v-center">
 												<h5>Futurealiti digital</h5>
-												<p>United States</p> <i class="fas fa-quote-right posiqut"></i> </div>
+												<p>United States</p> <i class="fas fa-quote-right posiqut"></i>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -1150,11 +1109,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-12 fadeIn my-auto text-center">
-					<div class="review-title-ref mt40">
-						<a href="{{url('/testimonials')}}" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Read More Reviews <i class="fas fa-chevron-right fa-ani"></i></a>
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
@@ -1166,103 +1120,87 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="common-heading ptag wow fadeIn text-center">
-						<div data-text="Solutions" class="light-bg-text bg-text mt-5 text-center">
-							<h2>Explore our mobile app <span>portfolio</span> — trusted custom <span>app developers</span> in Dubai.</h2>
-						</div>
+						<h2>Explore Our Website <span>Portfolio</span> — Trusted Custom <span>Website Developers</span> in Dubai.</h2>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-				<div class="col-12">
-					<div class="owl-carousel owl-theme solutions-carousel">
-						<div class="item booking-app-bg">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-6">
-										<img src="assets/images/locations/booking-app/booking-app-1.webp" alt="Booking App" class="img-fluid d-block mx-auto" width="100%" height="100%">
-									</div>
-									<div class="col-lg-6 my-auto">
-										<h3 class="mb-4 text-white">Booking App</h3>
-										<p class="text-white">Make your journey smooth and stress-free with Travelicious, our innovative app designed for travelers worldwide. It's more than just an app; it's your go-to partner for an effortless travel experience tailored to the modern adventurer.</p>
-										<a href="{{url('/case-studies/travel-agency-app')}}" class="btn-outline lnk mt30">View Case Study
-											<i class="fas fa-chevron-right fa-icon"></i>
-											<span class="circle"></span>
-										</a>
-									</div>
+		<div class="row mt-5">
+			<div class="col-12">
+				<div class="owl-carousel owl-theme solutions-carousel">
+					<div class="item booking-app-bg">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6">
+									<img src="assets/images/case-studies/travel-agency-web/header-web.webp" alt="Booking Web" class="img-fluid d-block mx-auto" width="100%" height="100%">
 								</div>
-							</div>
-						</div>
-						<div class="item fitness-app-bg">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-6">
-										<img src="assets/images/locations/fitness-app/fitness-app-1.webp" alt="Fitness App" class="img-fluid d-block mx-auto" width="100%" height="100%">
-									</div>
-									<div class="col-lg-6 my-auto">
-										<h3 class="mb-4 text-white">Fitness App</h3>
-										<p class="text-white">Introducing Gymnasium, your new go-to fitness app! This app, with its fresh, contemporary look, is like a personal fitness buddy, keeping you on track with your health goals and training schedules and keeping that wellness motivation sky-high. It's a prime example of how fintech app development in Dubai can help users maintain their fitness.</p>
-										<a href="{{url('/case-studies/gym-app')}}" class="btn-outline lnk mt30">View Case Study
-											<i class="fas fa-chevron-right fa-icon"></i>
-											<span class="circle"></span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item loyalty-app-bg">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-6">
-										<img src="assets/images/locations/loyalty-app/loyalty-app-1.webp" alt="Loyalty App" class="img-fluid d-block mx-auto" width="100%" height="100%">
-									</div>
-									<div class="col-lg-6 my-auto">
-										<h3 class="mb-4 text-white">Loyalty App</h3>
-										<p class="text-white">Whether you're into the latest trends, timeless classics, or something in between, our all-in-one e-commerce and loyalty app is your go-to destination. Loved by millions, it brings you exclusive deals and cashback rewards, putting all your favorite stores right where you want them—on your phone.</p>
-										<a href="{{url('/case-studies/loyalty-app')}}" class="btn-outline lnk mt30">View Case Study
-											<i class="fas fa-chevron-right fa-icon"></i>
-											<span class="circle"></span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item mover-app-bg">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-6">
-										<img src="assets/images/locations/mover-app/mover-app-1.webp" alt="Mover App" class="img-fluid d-block mx-auto" width="100%" height="100%">
-									</div>
-									<div class="col-lg-6 my-auto">
-										<h3 class="mb-4 text-white">Mover App</h3>
-										<p class="text-white">Our Mover App simplifies the moving process by handling every aspect of your move. Just book your move through the app, then sit back and relax while it takes care of everything efficiently, managing orders and keeping you engaged every step of the way.</p>
-										<a href="{{url('/case-studies/mover-app')}}" class="btn-outline lnk mt30">View Case Study
-											<i class="fas fa-chevron-right fa-icon"></i>
-											<span class="circle"></span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item real-estate-app-bg">
-							<div class="container">
-								<div class="row">
-									<div class="col-lg-6">
-										<img src="assets/images/locations/real-estate-app/real-estate-app-1.webp" alt="Real Estate App" class="img-fluid d-block mx-auto" width="100%" height="100%">
-									</div>
-									<div class="col-lg-6 my-auto">
-										<h3 class="mb-4 text-white">Real Estate App</h3>
-										<p class="text-white">Discover the new way to navigate the world of real estate. We've made buying, selling, or investing in property easier than ever before. Our app gives you the tools you need to stay ahead of the game, no matter what your real estate goals are.</p>
-										<a href="{{url('/case-studies/real-estate-app')}}" class="btn-outline lnk mt30">View Case Study
-											<i class="fas fa-chevron-right fa-icon"></i>
-											<span class="circle"></span>
-										</a>
-									</div>
+								<div class="col-lg-6 my-auto">
+									<h3 class="mb-4 text-white">Booking Web</h3>
+									<p class="text-white">Make your journey smooth and stress-free with Travelicious, our innovative web designed for travelers worldwide. It's more than just an web; it's your go-to partner for an effortless travel experience tailored to the modern adventurer.</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div id="counter" class="owl-counter"></div>
+					<div class="item fitness-app-bg">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6">
+									<img src="assets/images/case-studies/gym-web/header-web.webp" alt="Fitness Web" class="img-fluid d-block mx-auto" width="100%" height="100%">
+								</div>
+								<div class="col-lg-6 my-auto">
+									<h3 class="mb-4 text-white">Fitness Web</h3>
+									<p class="text-white">Introducing Gymnasium, your new go-to fitness web! This web, with its fresh, contemporary look, is like a personal fitness buddy, keeping you on track with your health goals and training schedules and keeping that wellness motivation sky-high. It's a prime example of how fintech web development in Dubai can help users maintain their fitness.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item loyalty-app-bg">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6">
+									<img src="assets/images/case-studies/loyalty-web/header-web.webp" alt="Loyalty Web" class="img-fluid d-block mx-auto" width="100%" height="100%">
+								</div>
+								<div class="col-lg-6 my-auto">
+									<h3 class="mb-4 text-white">Loyalty Web</h3>
+									<p class="text-white">Whether you're into the latest trends, timeless classics, or something in between, our all-in-one e-commerce and loyalty web is your go-to destination. Loved by millions, it brings you exclusive deals and cashback rewards, putting all your favorite stores right where you want them—on your phone.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item mover-app-bg">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6">
+									<img src="assets/images/case-studies/mover-web/header-web.webp" alt="Mover Web" class="img-fluid d-block mx-auto" width="100%" height="100%">
+								</div>
+								<div class="col-lg-6 my-auto">
+									<h3 class="mb-4 text-white">Mover Web</h3>
+									<p class="text-white">Our Mover Web simplifies the moving process by handling every aspect of your move. Just book your move through the web, then sit back and relax while it takes care of everything efficiently, managing orders and keeping you engaged every step of the way.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item real-estate-app-bg">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6">
+									<img src="assets/images/case-studies/real-estate-web/header-web.webp" alt="Real Estate Web" class="img-fluid d-block mx-auto" width="100%" height="100%">
+								</div>
+								<div class="col-lg-6 my-auto">
+									<h3 class="mb-4 text-white">Real Estate Web</h3>
+									<p class="text-white">Discover the new way to navigate the world of real estate. We've made buying, selling, or investing in property easier than ever before. Our web gives you the tools you need to stay ahead of the game, no matter what your real estate goals are.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="counter" class="owl-counter"></div>
+			</div>
+		</div>
+		<div class="row text-center mt-3">
+				<div class="col-12">
+					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 				</div>
 			</div>
 	</section>
@@ -1274,15 +1212,13 @@
 			<div class="row">
 				<div class="col-12 wow fadeIn">
 					<div class="common-heading ptag text-center">
-						<div data-text="Our Industries" class="light-bg-text bg-text">
-							<h2>Connect with Us: Discover the <span>Industries</span> We Serve in Dubai</h2>
-						</div>
+						<h2>Connect with Us: Discover the <span>Industries</span> We Serve in Dubai</h2>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row mt-5">
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeIn">
-					<a href="{{url('/advertising')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/advertising.webp" alt="Advertising" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1295,7 +1231,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 mt-md-0 wow fadeIn">
-					<a href="{{url('/automative-and-transport')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/automative-and-transport.webp" alt="Automative and Transport" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1308,7 +1244,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 mt-lg-0 wow fadeIn">
-					<a href="{{url('/ecommerce-and-retail')}}" class="industries-link">
+					<a href="javascript:void(0) class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/ecommerce-and-retail.webp" alt="Ecommerce and Retail" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1321,7 +1257,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 mt-xl-0 wow fadeIn">
-					<a href="{{url('/education')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/education.webp" alt="Education" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1334,7 +1270,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 wow fadeIn">
-					<a href="{{url('/financial-software-development')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/financial-software-development.webp" alt="Financial Software Development" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1347,7 +1283,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 wow fadeIn">
-					<a href="{{url('/gaming-and-leisure')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/gaming-and-leisure.webp" alt="Gaming and Leisure" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1360,7 +1296,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 wow fadeIn">
-					<a href="{{url('/healthcare-and-life-science')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/healthcare-and-life-science.webp" alt="Healthcare and Life Science" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1373,7 +1309,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 wow fadeIn">
-					<a href="{{url('/media-and-entertainment')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/media-and-entertainment.webp" alt="Media and Entertainment" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1386,7 +1322,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 wow fadeIn">
-					<a href="{{url('/real-estate-and-property')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/real-estate-and-property.webp" alt="Real Estate and Property" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1399,7 +1335,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 wow fadeIn">
-					<a href="{{url('/software-and-high-tech')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/software-and-high-tech.webp" alt="Software and High Tech" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1412,7 +1348,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 wow fadeIn">
-					<a href="{{url('/sports-teams-and-leagues')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/sports-teams-and-leagues.webp" alt="Sports Teams and Leagues" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1424,7 +1360,7 @@
 					</a>
 				</div>
 				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 mt-3 wow fadeIn">
-					<a href="{{url('/travel-and-hospitality')}}" class="industries-link">
+					<a href="javascript:void(0)" class="industries-link">
 						<div class="industries-image">
 							<img src="assets/images/industries/travel-and-hospitality.webp" alt="Travel and Hospitality" class="img-fluid" width="100%" height="100%">
 						</div>
@@ -1435,6 +1371,12 @@
 							<i class="fa-solid fa-circle-arrow-up-right"></i>
 						</div>
 					</a>
+				</div>
+			</div>
+			<div class="row text-center mt-3">
+				<div class="col-12">
+					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 				</div>
 			</div>
 		</div>
@@ -1466,9 +1408,7 @@
 			<div class="row fadeIn">
 				<div class="col-12">
 					<div class="common-heading">
-						<div data-text="Technologies" class="light-bg-text bg-text text-center">
-							<h2 class="mb30 text-center"><span>Technologies</span> We Work With</h2>
-						</div>
+						<h2 class="mb30 text-center"><span>Technologies</span> We Work With</h2>
 					</div>
 				</div>
 			</div>
@@ -1893,6 +1833,12 @@
 					</div>
 				</div>
 			</div>
+			<div class="row text-center mt-3">
+				<div class="col-12">
+					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!--End Tech-->
@@ -1903,12 +1849,10 @@
 			<div class="row justify-content-center wow fadeIn">
 				<div class="col-xl-6 my-auto">
 					<div class="common-heading">
-						<div data-text="Developers" class="dark-bg-text bg-text">
-							<h2 class="text-white">Select our leading Dubai-based <span>mobile app development</span> company to rapidly enhance your visibility in the market.</h2>
-						</div>
-						<!--<p class="pt-2">AppsNation offers you to hire your dedicated development team. Which would connect with you 24 hours to ensure your development solution quality up to the mark. The benefit of hiring a dedicated team is you can contact them you will get a dedicated project manager for your project that makes sure your project satisfaction.</p>-->
+						<h2 class="text-white">Select our leading Dubai-based <span>mobile app development</span> company to rapidly enhance your visibility in the market.</h2>
 						<p class="pt-2 text-white">Developing custom e-commerce apps in Dubai? Look no further! We offer the most innovative and unique mobile app development services around. No matter if you need a cross-platform solution or a robust, feature-rich app for iOS or Android, we can help. Our team creates bespoke mobile applications that fulfill your specific business needs, enhance your brand, and increase user engagement within Dubai's thriving tech community. So why wait? Contact us today, and let's spark your business's expansion!</p>
-						<a href="{{url('/contact-us')}}" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3" data-wow-delay="0.8s">Get Consultation <i class="fas fa-chevron-right fa-ani"></i></a>
+						<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+						<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
 					</div>
 				</div>
 				<div class="col-xl-6 mt-3">
@@ -1917,7 +1861,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/unity-logo.webp" class="img-fluid d-block mx-auto" alt="Unity" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">Unity</p> -->
 								</div>
 							</div>
 						</div>
@@ -1925,7 +1868,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/unreal-engine-logo.webp" class="img-fluid d-block mx-auto" alt="Unreal Engine" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">Unreal Engine</p> -->
 								</div>
 							</div>
 						</div>
@@ -1933,7 +1875,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/wordpress-logo.webp" class="img-fluid d-block mx-auto" alt="WordPress" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">WordPress</p> -->
 								</div>
 							</div>
 						</div>
@@ -1941,7 +1882,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/php-logo.webp" class="img-fluid d-block mx-auto" alt="PHP" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">PHP</p> -->
 								</div>
 							</div>
 						</div>
@@ -1949,7 +1889,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/angular-logo.webp" class="img-fluid d-block mx-auto" alt="Angular" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">Angular JS</p> -->
 								</div>
 							</div>
 						</div>
@@ -1957,7 +1896,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/c++-logo.webp" class="img-fluid d-block mx-auto" alt="C++" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">C++</p> -->
 								</div>
 							</div>
 						</div>
@@ -1965,7 +1903,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/blender-logo.webp" class="img-fluid d-block mx-auto" alt="Blender" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">Blender</p> -->
 								</div>
 							</div>
 						</div>
@@ -1973,7 +1910,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/python-logo.webp" class="img-fluid d-block mx-auto" alt="Python" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">Python</p> -->
 								</div>
 							</div>
 						</div>
@@ -1981,7 +1917,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/node-js-logo.webp" class="img-fluid d-block mx-auto" alt="Node Js" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">Node JS</p> -->
 								</div>
 							</div>
 						</div>
@@ -1989,7 +1924,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/photon-logo.webp" class="img-fluid d-block mx-auto" alt="Photon" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">Photon</p> -->
 								</div>
 							</div>
 						</div>
@@ -1997,7 +1931,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/react-native-logo.webp" class="img-fluid d-block mx-auto" alt="React Native" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">React Native</p> -->
 								</div>
 							</div>
 						</div>
@@ -2005,7 +1938,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/js-logo.webp" class="img-fluid d-block mx-auto" alt="JS" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">JavaScript</p> -->
 								</div>
 							</div>
 						</div>
@@ -2013,7 +1945,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/html-logo.webp" class="img-fluid d-block mx-auto" alt="HTML" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">HTML</p> -->
 								</div>
 							</div>
 						</div>
@@ -2021,7 +1952,6 @@
 							<div class="card stack-hov">
 								<div class="card-body">
 									<img src="assets/images/tech/laravel-logo.webp" class="img-fluid d-block mx-auto" alt="Laravel" width="auto" height="auto">
-									<!-- <p class="text-center pt-2">Laravel</p> -->
 								</div>
 							</div>
 						</div>
@@ -2038,9 +1968,7 @@
 			<div class="row fadeIn">
 				<div class="col-12">
 					<div class="common-heading">
-						<div data-text="Clients" class="light-bg-text bg-text text-center">
-							<h2 class="mb30 text-center">Here are a few of the <span>folks</span> we've enjoyed working with.</h2>
-						</div>
+						<h2 class="mb30 text-center">Here are a few of the <span>folks</span> we've enjoyed working with.</h2>
 					</div>
 				</div>
 			</div>
@@ -2176,36 +2104,13 @@
 	</section>
 	<!--End Clients-->
 
-	<!-- Start Start Location -->
-	<!-- <section class="location py-5">
-		<div class="container">
-			<div class="row wow fadeIn">
-				<div class="col-lg-6 my-auto">
-					<div class="common-heading">
-						<div data-text="Developers" class="dark-bg-text bg-text">
-							<h2><span>Expand Your Market Presence with Our Top Mobile App </span>Development Company in Dubai</h2>
-						</div>
-						<p class="pt-2">We are the No.1 mobile app development company in Dubai that offer impeccable solutions under cost-effective rates. We build high-quality, user-friendly mobile apps that drive growth and help you reach more customers & generate massive revenue. With our award-winning solutions and industry expertise, we help you in keeping ahead of your rivals.</p>
-						<a href="{{url('/contact-us')}}" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3" data-wow-delay="0.8s">Get Consultation <i class="fas fa-chevron-right fa-ani"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-3 mt-lg-0">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.096848374473!2d55.27083017596019!3d25.199956231587866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4312d8c0053f%3A0x77db15d689880e9!2sAppsNation%20Dubai%20%7C%20(Mobile%20Apps%20%7C%20Games%20%7C%20VR%20%2FAR%20%7C%20Metaverse%20%7C%20Web%20%26%20Software%20Development%20Company)!5e0!3m2!1sen!2s!4v1735823836180!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-			</div>
-		</div>
-	</section> -->
-	<!-- End Start Location -->
-
 	<!-- Start FAQS-->
 	<section class="faq-section py-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 wow fadeIn">
 					<div class="common-heading">
-						<div data-text="FAQ" class="light-bg-text bg-text">
-							<h2>Frequently Asked Questions</h2>
-						</div>
+						<h2>Frequently Asked Questions</h2>
 					</div>
 				</div>
 			</div>
@@ -2318,7 +2223,7 @@
 						<a href="tel:+13237909803">+1 (323) 790-9803</a>
 					</span>
 				</div>
-				<button class="request-quote">REQUEST A QUOTE</button>
+				<button class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal">REQUEST A QUOTE</button>
 				<div class="cta-item call-us">
 					<span>24/7 Support</span>
 					<span>

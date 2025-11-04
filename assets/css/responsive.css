@@ -4185,14 +4185,6 @@
         width: 600px !important;
     }
 
-	.portfolio-section .container:nth-child(2) {
-		margin-top: 100px;
-	}
-
-	.services-section .row:nth-child(2), .solutions-section .row:nth-child(2), .industries-section .row:nth-child(2), .service-section .row:nth-child(2) {
-		margin-top: 100px;
-	}
-
 	.technologies-stack .row:nth-child(2) {
 		margin-top: 0px;
 	}
@@ -4202,7 +4194,7 @@
 	}
 
 	.lets-connect {
-		margin: 200px 0px 150px;
+		margin: 200px 0px 0px;
 	}
 
 	.lets-connect .free-cta-title {

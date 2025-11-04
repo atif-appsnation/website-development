@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Email Content
         $mail->isHTML(true);
-        $mail->Subject = '('.$userName.')' ." Digital Marketing New Lead";
+        $mail->Subject = '('.$userName.')' ." Website New Lead";
         $mail->Body = "
         <table style='width:100%;border-collapse:collapse;'>
             <tr><th style='border:1px solid #ddd;padding:8px;'>Name</th><td style='border:1px solid #ddd;padding:8px;'>$userName</td></tr>
