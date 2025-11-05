@@ -2236,48 +2236,52 @@
 	<!-- End FAQS -->
 
 	<div class="modal" id="myModal">
-		<div class="modal-dialog modal-lg modal-dialog-centered">
+		<div class="modal-dialog modal-xl modal-dialog-centered">
 			<div class="modal-content">
-				<!-- Modal Header -->
-				<div class="modal-header">
-					<h4 class="modal-title">Contact Us</h4>
-					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-				</div>
-				<!-- Modal body -->
 				<div class="modal-body">
-					<div class="form-block header-quote-form">
-						<form id="contactForm" method="post" data-bs-toggle="validator" action="form_submit.php">
-							<input type="hidden" name="_token" value="vJbHhszTSBUDasAiVb6To1mO8NuAeGYjmRD3GpQD">
-							<div class="row">
-								<div class="form-group col-sm-6">
-									<input type="text" name="full_name" id="full_name" placeholder="Enter Full Name" required="" data-error="Please fill Out" maxlength="50" class="form-control">
-									<div class="help-block with-errors"></div>
-								</div>
-								<div class="form-group col-sm-6">
-									<input type="text" id="mobile" name="mobile" placeholder="Enter Mobile" required="" data-error="Please fill Out" maxlength="20" class="form-control">
-									<div class="help-block with-errors"></div>
-								</div>
+					<div class="row">
+						<div class="col-lg-5 pe-lg-0">
+							<div class="background">
+								<h2 class="text-white mb-2">Let's start a project together</h2>
+								<p class="text-white mb-2">We'll contact you within a couple of hours to schedule a meeting to discuss your goals.</p>
+								<img src="assets/images/locations/modal-image.webp" alt="" class="img-fluid">
 							</div>
-							<div class="row">
-								<div class="form-group col-sm-12">
-									<input type="email" name="email" id="email" placeholder="Enter Email" required="" maxlength="50" class="form-control">
-									<div class="help-block with-errors"></div>
-								</div>
+						</div>
+						<div class="col-lg-7 ps-lg-0 my-auto">
+							<div class="form-block header-quote-form">
+								<form id="contactForm" method="post" data-bs-toggle="validator" action="form_submit.php">
+									<input type="hidden" name="_token" value="vJbHhszTSBUDasAiVb6To1mO8NuAeGYjmRD3GpQD">
+									<div class="row">
+										<div class="form-group col-sm-6">
+											<input type="text" name="full_name" id="full_name" placeholder="Enter Full Name" required="" data-error="Please fill Out" maxlength="50" class="form-control">
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group col-sm-6">
+											<input type="text" id="mobile" name="mobile" placeholder="Enter Mobile" required="" data-error="Please fill Out" maxlength="20" class="form-control">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col-sm-12">
+											<input type="email" name="email" id="email" placeholder="Enter Email" required="" maxlength="50" class="form-control">
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col-12">
+											<textarea id="message" name="message" rows="3" placeholder="Enter Your Message" required="" maxlength="500" class="w-100" class="form-control"></textarea>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<button type="submit" class="btn button-arounder lnk">Schedule a Call
+										<i class="fas fa-chevron-right fa-icon"></i>
+									</button>
+								</form>
+								<div id="responseMessage" class="mt-3"></div>
 							</div>
-							<div class="row">
-								<div class="form-group col-12">
-									<textarea id="message" name="message" rows="3" placeholder="Enter Your Message" required="" maxlength="500" class="w-100" class="form-control"></textarea>
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-							<button type="submit" class="btn button-arounder lnk">Submit
-								<i class="fas fa-chevron-right fa-icon"></i>
-							</button>
-						</form>
-						<div id="responseMessage" class="mt-3"></div>
+						</div>
 					</div>
 				</div>
-				<!-- Modal footer -->
 			</div>
 		</div>
 	</div>

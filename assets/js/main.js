@@ -94,8 +94,7 @@
     });
 
     //Owl-Carousel - Home testimonial
-    var owl = $('.testimonial-card-a');
-    owl.owlCarousel({
+    $('.testimonial-card-a').owlCarousel({
         items: 4,
 		loop: true,
 		autoplay: true,

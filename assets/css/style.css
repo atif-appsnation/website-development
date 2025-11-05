@@ -14157,7 +14157,7 @@ img {
 }
 
 .testimonial-card-a .owl-item {
-    margin: 30px 4px 0px;
+    margin: 30px 0px 0px;
 }
 
 .testimonial-card-a .owl-item .tcd {
@@ -17697,4 +17697,23 @@ body {
         font-size: 0.9em;
         padding: 10px 15px;
     }
+}
+
+.modal-dialog .modal-body {
+    padding: 0px;
+}
+
+.background {
+    background-color: var(--first-color);
+    padding: 25px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.modal-dialog .modal-body .header-quote-form {
+    padding: 50px;
+}
+
+.modal-dialog .modal-content {
+    border: 1px solid transparent;
+    border-radius: 20px;
 }

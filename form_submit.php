@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Recipients
         $mail->setFrom('leads@digitroopers.com', $userName);
-        $mail->addAddress('leads@digitroopers.com', 'AppsNation');
+        $mail->addAddress('leads@appsnation.co', 'AppsNation');
 
         // Email Content
         $mail->isHTML(true);
