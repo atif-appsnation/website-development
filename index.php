@@ -1016,6 +1016,22 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="row mt-5">
+				<div class="col-md-6 col-lg-3">
+					<iframe width="100%" height="500" src="https://www.youtube.com/embed/a5T_ysg1z1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-6 col-lg-3 mt-3 mt-md-0">
+					<iframe width="100%" height="500" src="https://www.youtube.com/embed/g6LfT8i_eCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-6 col-lg-3 mt-3 mt-lg-0">
+					<iframe width="100%" height="500" src="https://www.youtube.com/embed/VdnFv9mJPis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+				<div class="col-md-6 col-lg-3 mt-3 mt-lg-0">
+					<iframe width="100%" height="500" src="https://www.youtube.com/embed/kDkpg1IFCOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+            </div>
+
 			<div class="row mt-5">
 				<div class="col-12">
 					<div class="row">
@@ -2285,6 +2301,10 @@
 			</div>
 		</div>
 	</div>
+
+	<a href="https://wa.me/+923432003860" class="whatsapp-sticky" target="_blank" rel="noopener noreferrer">
+		<i class="fa-brands fa-whatsapp"></i>
+	</a>
 				
 	<script src="assets/js/jquery.min.js"></script>           
 	<script src="assets/js/bootstrap.bundle.min.js"></script>
