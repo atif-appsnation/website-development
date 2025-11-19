@@ -677,39 +677,7 @@
         }
     });
 
-    //Owl-Carousel - tech-slider2
-    $('.tech-slider2').owlCarousel({
-        items: 3,
-        loop: true,
-        autoplay: true,
-        centre: true,
-        margin: 20,
-        nav: false,
-        dots: false,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true,
-        smartSpeed: 4000,
-        responsive: {
-            0: {
-                items: 2
-            },
-            520: {
-                items: 2
-            },
-            768: {
-                items: 3
-            },
-            1200: {
-                items: 3
-            },
-            1400: {
-                items: 3
-            },
-            1600: {
-                items: 3
-            },
-        }
-    });
+     
 
     $(function(){
         var owl = $('.solutions-carousel');
@@ -848,3 +816,100 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+
+
+// by hassan services card
+   $('.tech-slider2').owlCarousel({
+        items: 3,
+        loop: true,
+        autoplay: true,
+        center: true,
+        margin: 20,
+        nav: false,
+        dots: false,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        smartSpeed: 1200,
+        responsiveClass: true,
+        responsive: {
+            0: { items: 1, center:false },
+            520: { items: 1, center:false },
+            768: { items: 2, center:false },
+            992: { items: 2, center:true },
+            1200: { items: 3, center:true }
+        }
+    });
+//End by hassan services card
+
+
+
+// created by hassan portfoilo section 
+ document.addEventListener('DOMContentLoaded', function () {
+      const carousel = document.querySelector('#animalCarousel');
+      const bsCarousel = new bootstrap.Carousel(carousel);
+      let startX = 0;
+      let endX = 0;
+
+      // Touch (mobile)
+      carousel.addEventListener('touchstart', e => startX = e.touches[0].clientX);
+      carousel.addEventListener('touchend', e => {
+        endX = e.changedTouches[0].clientX;
+        handleSwipe();
+      });
+
+      // Mouse (desktop)
+      carousel.addEventListener('mousedown', e => startX = e.clientX);
+      carousel.addEventListener('mouseup', e => {
+        endX = e.clientX;
+        handleSwipe();
+      });
+
+      function handleSwipe() {
+        if (Math.abs(startX - endX) < 50) return;
+        if (endX < startX) bsCarousel.next();
+        else bsCarousel.prev();
+      }
+    });
+// End by hassan portfoilo section 
+
+(function($) {
+    "use strict";
+
+    $(document).ready( function() {
+
+        //>> Mobile Menu Js Start <<//
+        $('#mobile-menu').meanmenu({
+            meanMenuContainer: '.mobile-menu',
+            meanScreenWidth: "1199",
+            meanExpand: ['<i class="far fa-plus"></i>'],
+        });
+
+        //>> Sidebar Toggle Js Start <<//
+        $(".offcanvas__close,.offcanvas__overlay").on("click", function() {
+            $(".offcanvas__info").removeClass("info-open");
+            $(".offcanvas__overlay").removeClass("overlay-open");
+        });
+        $(".sidebar__toggle").on("click", function() {
+            $(".offcanvas__info").addClass("info-open");
+            $(".offcanvas__overlay").addClass("overlay-open");
+        });
+
+        //>> Body Overlay Js Start <<//
+        $(".body-overlay").on("click", function() {
+            $(".offcanvas__area").removeClass("offcanvas-opened");
+            $(".df-search-area").removeClass("opened");;
+            $(".body-overlay").removeClass("opened");
+        });
+
+        //>> Sticky Header Js Start <<//
+
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 250) {
+                $("#header-sticky").addClass("sticky");
+            } else {
+                $("#header-sticky").removeClass("sticky");
+            }
+        });
+    })
+    })

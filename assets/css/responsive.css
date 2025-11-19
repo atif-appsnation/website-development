@@ -1565,7 +1565,7 @@
 @media only screen and (min-width:1440px) {
 
 	.breadcrumb-areav2 {
-		height: 100vh;
+		height: 70vh;
 		display: flex;
 		vertical-align: middle;
     	align-items: center;
