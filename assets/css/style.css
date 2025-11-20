@@ -10482,7 +10482,7 @@ button:not(:disabled) {
 
 /* Industries Page */
 
-.industries-banner {
+/* .industries-banner {
     background: var(--black2-color);
 }
 
@@ -10685,7 +10685,7 @@ button:not(:disabled) {
 
 .industry-type-block:hover .web-portal-development {
     background-image: url(../images/industries/web-portal-and-development-hover.webp);
-}
+} */
 
 /* Services Page */
 
