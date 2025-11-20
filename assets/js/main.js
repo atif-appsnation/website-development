@@ -820,26 +820,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // by hassan services card
-   $('.tech-slider2').owlCarousel({
-        items: 3,
-        loop: true,
-        autoplay: true,
-        center: true,
-        margin: 20,
-        nav: false,
-        dots: false,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        smartSpeed: 1200,
-        responsiveClass: true,
-        responsive: {
-            0: { items: 1, center:false },
-            520: { items: 1, center:false },
-            768: { items: 2, center:false },
-            992: { items: 2, center:true },
-            1200: { items: 3, center:true }
-        }
-    });
+$('.tech-slider2').owlCarousel({
+    items: 3,
+    loop: true,
+    autoplay: true,
+    autoplayHoverPause: false,
+    center: true,
+    margin: 20,
+    nav: false,
+    dots: true,
+    autoplayTimeout: 2000,
+    smartSpeed: 1200,
+    responsiveClass: true,
+    responsive: {
+        0: { items: 1, center:false },
+        520: { items: 1, center:false },
+        768: { items: 2, center:false },
+        992: { items: 2, center:true },
+        1200: { items: 3, center:true }
+    }
+});
 //End by hassan services card
 
 
@@ -872,44 +872,3 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 // End by hassan portfoilo section 
-
-(function($) {
-    "use strict";
-
-    $(document).ready( function() {
-
-        //>> Mobile Menu Js Start <<//
-        $('#mobile-menu').meanmenu({
-            meanMenuContainer: '.mobile-menu',
-            meanScreenWidth: "1199",
-            meanExpand: ['<i class="far fa-plus"></i>'],
-        });
-
-        //>> Sidebar Toggle Js Start <<//
-        $(".offcanvas__close,.offcanvas__overlay").on("click", function() {
-            $(".offcanvas__info").removeClass("info-open");
-            $(".offcanvas__overlay").removeClass("overlay-open");
-        });
-        $(".sidebar__toggle").on("click", function() {
-            $(".offcanvas__info").addClass("info-open");
-            $(".offcanvas__overlay").addClass("overlay-open");
-        });
-
-        //>> Body Overlay Js Start <<//
-        $(".body-overlay").on("click", function() {
-            $(".offcanvas__area").removeClass("offcanvas-opened");
-            $(".df-search-area").removeClass("opened");;
-            $(".body-overlay").removeClass("opened");
-        });
-
-        //>> Sticky Header Js Start <<//
-
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 250) {
-                $("#header-sticky").addClass("sticky");
-            } else {
-                $("#header-sticky").removeClass("sticky");
-            }
-        });
-    })
-    })

@@ -36,7 +36,7 @@
 		</div>
 		<div class="contact-info">
 
-			<button   class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal"><a href="tel:+13237909803"> </a> Call us </button>
+			<button   class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal"><a href="tel:+971543589543"> </a> Call us </button>
 			<button id="callus" class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal">REQUEST A QUOTE &gt;</button>
 
 		</div>
@@ -55,11 +55,11 @@
 				</a>
 			</li>
 			<li class="sm-item">
-				<a href="tel:+13237989803" class="white black">
+				<a href="tel:+971543589543" class="white black">
 					<span class="sm-icon">
 						<i class="fas fa-phone-alt"></i>
 					</span>
-					<span class="sm-label"> +1 (323) 798-9803</span>
+					<span class="sm-label"> +971543589543</span>
 				</a>
 			</li>
 			<li class="sm-item">
@@ -70,14 +70,7 @@
 					<span class="sm-label">Get a Quote</span>
 				</a>
 			</li>
-			<li class="sm-item">
-				<a data-bs-toggle="modal" data-bs-target="#myModal" class="white black">
-					<span class="sm-icon">
-						<i class="fas fa-calculator"></i>
-					</span>
-					<span class="sm-label">Cost Calculator</span>
-				</a>
-			</li>
+			 
 		</ul>
 	</div>
 	<!-- End Sidemenu -->
@@ -88,60 +81,19 @@
 			<div class="row justify-content-between">
 				<div class="col-sm-12 col-xl-6 my-auto wow fadeIn">
 					<div class="bread-titlev2">
-						<h1 class="banner-heading pt-3"> Professional Website Design & Development Company in <br> Dubai</h1>
+						<h1 class="banner-heading pt-sm-0 pt-3"> Professional Website Design & Development Company in <br> Dubai</h1>
 						<p class="mt20 text-white">High-Performing, Custom-Built Websites Designed to Convert.
 							Grow Your Business with a Leading
 							<b>Website Design Agency in Dubai.</b>
 						</p>
 					</div>
-					<div class="row mt-3">
-						<!-- <div class="col-md-4">
-							<div class="card h-100">
-								<div class="card-body">
-									<img src="assets/images/locations/clutch.webp" alt="Clutch" class="img-fluid d-block mx-auto" width="auto" height="auto">
-									<img src="assets/images/locations/star.webp" alt="Star" class="img-fluid d-block mx-auto mt-3" width="auto" height="auto">
-									<p class="text-white text-center pt-2">Recognized as Top App Developers by Clutch</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 mt-3 mt-md-0">
-							<div class="card h-100">
-								<div class="card-body">
-									<img src="assets/images/locations/goodfirms.webp" alt="GoodFirms" class="img-fluid d-block mx-auto" width="auto" height="auto">
-									<img src="assets/images/locations/star.webp" alt="Star" class="img-fluid d-block mx-auto mt-3" width="auto" height="auto">
-									<p class="text-white text-center pt-2">Recognized as Top App Developers by GoodFirms</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 mt-3 mt-md-0">
-							<div class="card h-100">
-								<div class="card-body">
-									<img src="assets/images/locations/designrush.webp" alt="DesignRush" class="img-fluid d-block mx-auto" width="auto" height="auto">
-									<img src="assets/images/locations/star.webp" alt="Star" class="img-fluid d-block mx-auto mt-3" width="auto" height="auto">
-									<p class="text-white text-center pt-2">Recognized as Top App Developers by DesignRush</p>
-								</div>
-							</div>
-						</div> -->
+			<div class="row  text-start   mt-3">
+				<div class="col-12">
+					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+971543589543" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Call Us <i class="fas fa-chevron-right fa-ani"></i></a>
+				</div>
+			</div>
 
-						<div class="col-md-6 mt-5 mt-md-0 d-flex gap-3">
-
-
-							<!-- Quote Button -->
-							<button class="request-quote d-flex align-items-center justify-content-center"
-								data-bs-toggle="modal"
-								data-bs-target="#myModal">
-								REQUEST A QUOTE &gt;
-							</button>
-							<!-- Call Button -->
-							<a href="tel:+13237909803" class="request-quote text-white d-flex align-items-center justify-content-center">
-								Call Us
-							</a>
-
-						</div>
-
-
-
-					</div>
 				</div>
 
 				<div class="col-sm-12 col-xl-4 mt-3 mt-xl-0 wow fadeIn">
@@ -317,7 +269,7 @@
 			<div class="row text-center mt-3">
 				<div class="col-12">
 					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
-					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+971543589543" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3"> +971543589543<i class="fas fa-chevron-right fa-ani"></i></a>
 				</div>
 			</div>
 		</div>
@@ -499,7 +451,7 @@
 			<div class="row text-center mt-3">
 				<div class="col-12">
 					<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
-					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+971543589543" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3"> +971543589543 <i class="fas fa-chevron-right fa-ani"></i></a>
 				</div>
 			</div>
 		</div>
@@ -1057,7 +1009,7 @@
 				<p class="text-center text-lg-start text-white">Hire  <span>web developer </span>in Dubai </p>
 				<div class=" text-md-start  text-center">
 				<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
-					<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+971543589543" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3"> +971543589543<i class="fas fa-chevron-right fa-ani"></i></a>
 			</div>
 			</div>
 			<div class="hire-developer-img d-none d-xl-block">
@@ -1485,7 +1437,7 @@
 		<div class="row text-center mt-3 wow fadeInUp">
 			<div class="col-12">
 				<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
-				<a href="tel:+1323790-9803" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">+1 (323) 790-9803 <i class="fas fa-chevron-right fa-ani"></i></a>
+				<a href="tel:+971543589543" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3"> +971543589543<i class="fas fa-chevron-right fa-ani"></i></a>
 			</div>
 		</div>
 
@@ -2485,7 +2437,7 @@
                 </div>
                 <div class="col-lg-4 mt-md-5 mt-sm-5 my-5">
                     <h6 class="text-center text-white fs-4">Call Us At <br>
-                        <a href="tel:+971551135229"> +971551135229</a>
+                        <a href="tel:+971543589543"> +971543589543</a>
                     </h6>
                     <h6 class="text-center  text-white fs-4 mt-3">24/7 Support <br>
                         <a href="mailto:sales@appsnation.co">sales@appsnation.co</a>
@@ -2555,7 +2507,7 @@
 			</div>
 		</div>
 	</div>
-	<a href="tel:+971551135229" class="Phone-sticky" target="_blank" rel="noopener noreferrer">
+	<a href="tel:+971543589543" class="Phone-sticky" target="_blank" rel="noopener noreferrer">
 		<i class="fa-solid fa-phone fa-flip-horizontal" style="color: #ffffff;"></i>
 	</a>
 	<a href="https://wa.me/+923432003860" class="whatsapp-sticky" target="_blank" rel="noopener noreferrer">

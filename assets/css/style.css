@@ -9102,7 +9102,16 @@ html .mt15 {
     letter-spacing: 2px;
     line-height: 60px;
 }
- 
+ @media (max-width:400px) {
+    .banner-heading {
+    font-family: var(--font-family);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 51px;
+ }
+ }
 
 /* Fluper Pages */
 
@@ -11852,6 +11861,16 @@ i.fa-brands.fa-instagram {
 	background-color: var(--white-color);
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     /* border-bottom: 1px solid var(--gray-color); */
+}
+@media (max-width:500px) {
+    
+.accordion-button:not(.collapsed) {
+    font-size:15px;
+}
+.accordion-button {
+
+    font-size: 15px;
+}
 }
 
 .accordion-body ul li {
@@ -17879,25 +17898,25 @@ footer::before {
     transition: 0.3s ease-in-out;
 }
 
-.tech-slider2 :nth-child(1) .item  .card:hover{
+.tech-slider2 .one:hover{
     background: url("../images/services/landing-pageServices/web\ images-01.png");
 }
-.tech-slider2 :nth-child(2) .item  .card:hover{
+.tech-slider2 .second:hover{
     background: url("../images/services/landing-pageServices/web\ images-02.png");
 }
-.tech-slider2 :nth-child(3) .item  .card:hover{
+.tech-slider2 .three:hover{
     background: url("../images/services/landing-pageServices/web\ images-03.png");
 }
-.tech-slider2 :nth-child(4) .item  .card:hover{
+.tech-slider2 .four:hover{
     background: url("../images/services/landing-pageServices/web\ images-04.png");
 }
-.tech-slider2 :nth-child(5) .item  .card:hover{
+.tech-slider2 .five:hover{
     background: url("../images/services/landing-pageServices/web\ images-05.png");
 }
-.tech-slider2 :nth-child(6) .item  .card:hover{
+.tech-slider2 .six:hover{
     background: url("../images/services/landing-pageServices/web\ images-06.png");
 }
-.tech-slider2 :nth-child(7) .item  .card:hover{
+.tech-slider2 .seven:hover{
     background: url("../images/services/landing-pageServices/web\ images-07.png");
 }
 .tech-slider2 .item .card:hover .services-img-div img{
