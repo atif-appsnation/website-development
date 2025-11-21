@@ -36,7 +36,7 @@
 		</div>
 		<div class="contact-info">
 
-			<button   class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal"><a href="tel:+971543589543"> </a> Call us </button>
+			<button   class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal"><a href="tel:+971543589543"> </a> CALL US </button>
 			<button id="callus" class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal">REQUEST A QUOTE &gt;</button>
 
 		</div>
@@ -51,7 +51,7 @@
 					<span class="sm-icon">
 						<i class="fas fa-comment"></i>
 					</span>
-					<span class="sm-label">Chat with us</span>
+					<span class="sm-label">Chat With Us</span>
 				</a>
 			</li>
 			<li class="sm-item">
@@ -207,14 +207,15 @@
 				<div class="col-lg-7 block-1 wow fadeIn my-auto">
 					<div class="common-heading text-l pl25">
 						<h2>WHY <span class="flup-theme"> CHOOSE </span> APPSNATION</h2>
-						<p>Looking for a <b> professional website designer </b>or <b>a website developer</b> in Dubai who actually understands your business? We build fast, modern, SEO-ready websites that help you get more leads and more sales.
-						</p>
+						<p>LOOKING FOR A <b> PROFESSIONAL WEBSITE DESIGNER </b> OR <b> A WEBSITE DEVELOPER </b> IN DUBAI WHO ACTUALLY UNDERSTANDS YOUR BUSINESS? WE BUILD FAST, MODERN, SEO-READY WEBSITES THAT HELP YOU GET MORE LEADS AND MORE SALES.</p>
+
 						<div class="row  ">
 							<div class="col-lg-8">
 
 								<h5 class="mb-4 fw-bold text-start">
-									Why businesses choose our website development agency:
-								</h5>
+    WHY BUSINESSES CHOOSE OUR WEBSITE DEVELOPMENT AGENCY:
+</h5>
+
 
 								<ul class="list-group list-group-flush">
 
@@ -293,11 +294,12 @@
     <div class="col-12 col-md-6">
         <div class="ptag text-white">
             <p>
-                At <b>AppsNation</b>, we craft visually stunning, highly functional websites that 
-                turn visitors into loyal customers. From strategy and design to coding and 
-                deployment, our Dubai-based team delivers <b>custom website solutions</b> that align 
-                with your business goals and create measurable impact.
-            </p>
+    AT <b>APPSNATION</b>, WE CRAFT VISUALLY STUNNING, HIGHLY FUNCTIONAL WEBSITES THAT 
+    TURN VISITORS INTO LOYAL CUSTOMERS. FROM STRATEGY AND DESIGN TO CODING AND 
+    DEPLOYMENT, OUR DUBAI-BASED TEAM DELIVERS <b>CUSTOM WEBSITE SOLUTIONS</b> THAT ALIGN 
+    WITH YOUR BUSINESS GOALS AND CREATE MEASURABLE IMPACT.
+</p>
+
         </div>
     </div>
 </div>
@@ -317,15 +319,17 @@
 							</div>
 							<div class="services-text-div">
 								<p>
-									Professional layouts designed to increase engagement and conversions.
-								</p>
+    PROFESSIONAL LAYOUTS DESIGNED TO INCREASE ENGAGEMENT AND CONVERSIONS.
+</p>
+
 							</div>
 						</div>
 					</div>
 				</div>
-
 				<!-- Item 2 -->
-				<div class="item">
+					
+
+					<div class="item">
 					<div class="card  second">
 						<div class="card-body">
 							<div class="services-img-div">
@@ -337,15 +341,16 @@
 							</div>
 							<div class="services-text-div">
 								<p>
-									High-performance websites by expert <b>web developers in Dubai.</b>
-								</p>
+    HIGH-PERFORMANCE WEBSITES BY EXPERT <b>WEB DEVELOPERS IN DUBAI.</b>
+</p>
+
 							</div>
 						</div>
 					</div>
 				</div>
-
 				<!-- Item 3 -->
-				<div class="item">
+			
+			<div class="item">
 					<div class="card three">
 						<div class="card-body">
 							<div class="services-img-div">
@@ -356,34 +361,18 @@
 							</div>
 							<div class="services-text-div">
 								<p>
-									Conversion-optimized online stores built on Shopify, WooCommerce, Magento.
-								</p>
+    CONVERSION-OPTIMIZED ONLINE STORES BUILT ON SHOPIFY, WOOCOMMERCE, MAGENTO.
+</p>
+
 							</div>
 						</div>
 					</div>
 				</div>
+
+				
+				
 
 				<!-- Item 4 -->
-				<div class="item">
-					<div class="card  four">
-						<div class="card-body">
-							<div class="services-img-div">
-								<img src="assets/images/home/game-app-development-icon.svg" alt="Responsive & Mobile-First Design" class="img-fluid">
-							</div>
-							<div class="service-heading">
-								<h3>Corporate & Business Websites</h3>
-							</div>
-							<div class="services-text-div">
-								<p>
-									Showcase your brand with a premium corporate website.
-
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Item 5 -->
 				<div class="item">
 					<div class="card  five">
 						<div class="card-body">
@@ -396,13 +385,37 @@
 							</div>
 							<div class="services-text-div">
 								<p>
-									Improve performance, speed, SEO & user experience.
-								</p>
+    IMPROVE PERFORMANCE, SPEED, SEO & USER EXPERIENCE.
+</p>
+
 							</div>
 						</div>
 					</div>
 				</div>
 
+
+				<!-- Item 5 -->
+
+
+				<div class="item">
+					<div class="card  four">
+						<div class="card-body">
+							<div class="services-img-div">
+								<img src="assets/images/home/game-app-development-icon.svg" alt="Responsive & Mobile-First Design" class="img-fluid">
+							</div>
+							<div class="service-heading">
+								<h3>Corporate & Business Websites</h3>
+							</div>
+							<div class="services-text-div">
+							<p>
+    SHOWCASE YOUR BRAND WITH A PREMIUM CORPORATE WEBSITE.
+</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				
 				<!-- Item 6 -->
 				<div class="item">
 					<div class="card six">
@@ -416,9 +429,9 @@
 							</div>
 							<div class="services-text-div">
 								<p>
-									Custom web applications tailored for automation, scalability, and advanced business workflows using modern frameworks.
+    CUSTOM WEB APPLICATIONS TAILORED FOR AUTOMATION, SCALABILITY, AND ADVANCED BUSINESS WORKFLOWS USING MODERN FRAMEWORKS.
+</p>
 
-								</p>
 							</div>
 						</div>
 					</div>
@@ -435,9 +448,10 @@
 								<h3>Web Maintenance & Support</h3>
 							</div>
 							<div class="services-text-div">
-								<p>
-									Ongoing website updates, monitoring, performance optimization, and security to keep your business online and running smoothly.
-								</p>
+							<p>
+    ONGOING WEBSITE UPDATES, MONITORING, PERFORMANCE OPTIMIZATION, AND SECURITY TO KEEP YOUR BUSINESS ONLINE AND RUNNING SMOOTHLY.
+</p>
+
 							</div>
 						</div>
 					</div>
@@ -515,8 +529,8 @@
 						</div>
 						<h2 class="wow fadeInUp" data-wow-delay=".3s">Results That Speak: <br> <span style="color:#009291">Our Client Success Stories</span></h2>
 						<p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-							Discover how our data-driven marketing strategies helped businesses across Dubai achieve real growth through Meta and Google Ads. </p>
-					</div>
+							ONGOING WEBSITE UPDATES, MONITORING, PERFORMANCE OPTIMIZATION, AND SECURITY TO KEEP YOUR BUSINESS ONLINE AND RUNNING SMOOTHLY.
+</p>					</div>
 				</div>
 			</div>
 
@@ -531,9 +545,8 @@
 							<img src="assets/images/locations/dubai/scale-your-business.webp" class="img-fluid rounded-3 " alt="Tiger">
 						</div>
 						<div class="col-sm-12 col-md-12 col-lg-6 p-4">
-							<h4 class="pt-3 case-study-heading">Empower Your Brand with <span style="color:#009291"> Dubai’s Leading Website Development</span> Company</h4>
-							<p class="pt-3 case-study-text">In today’s digital-first world, your website isn’t just a presence — it’s your brand’s performance engine. At <b>AppsNation</b>, we redefine what a <b>website development company in Dubai</b> should deliver. Our team of <b>Dubai web development experts</b> blends creativity, strategy, and advanced technology to craft sites that engage visitors, elevate your credibility, and drive measurable growth.</p>
-							<p class="pt-3 case-study-text">From responsive corporate websites and high-performing eCommerce platforms to custom web applications tailored to your workflow — we design and build digital experiences that move your business forward.</p>
+							<h4 class="pt-3 case-study-heading">Booking system Website for <span style="color:#009291"> Ride Smart Rent a Car</span> </h4>
+							<p class="pt-3 case-study-text">We built a clean, fast, and user-friendly rental website for Ride Smart Rent a Car — designed to help customers browse vehicles easily, compare options, and submit quick rental inquiries.</p>
 
 							<hr class="w-4" style="color:#009291">
 
@@ -541,20 +554,20 @@
 							<div class="stats-container my-5 md-ms-5">
 								<div class="row">
 									<div class="col-6 stat-item">
-										<div class="stat-number">187K+</div>
-										<div class="stat-description">Combined Reach</div>
+										<div class="stat-number">UI/UX Design</div>
+										<div class="stat-description">Clean, trustworthy </div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">567+</div>
-										<div class="stat-description">Total Leads</div>
+										<div class="stat-number">Mobile Optimization</div>
+										<div class="stat-description">Fast & mobile responsive</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 75–130</div>
-										<div class="stat-description">Avg. Cost per Lead</div>
+										<div class="stat-number">Car Listing</div>
+										<div class="stat-description">Car Listing & Detail pages</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 39,400+</div>
-										<div class="stat-description">Total Spend</div>
+										<div class="stat-number">Rental Inquiry</div>
+										<div class="stat-description">More inquiries, faster bookings</div>
 									</div>
 								</div>
 							</div>
@@ -571,29 +584,27 @@
 							<img src="assets/images/case-studies/gym-web/header-web.webp" class="img-fluid rounded-3" alt="Lion">
 						</div>
 						<div class="col-sm-12 col-md-12 col-lg-6 p-4">
-							<h4 class="pt-3 case-study-heading"><span style="color:#009291"> Gym Web:</span> More Than Just a Fitness App—Your All-in-One Trainer & Nutrition Coach</h4>
-							<p class="pt-3 case-study-text">Gym Web is designed to simplify your entire fitness journey by combining smart training, personalized nutrition, and daily motivation in one intuitive platform. Instead of juggling multiple apps, you get everything you need—from
-								workout plans to meal guidance—all in a single, easy-to-use interface. Whether you're building muscle, losing weight, or improving overall wellness, Gym Web keeps you on track. With real-time progress insights and expert-backed
-								tools, your fitness goals become easier and more achievable than ever.</p>
+							<h4 class="pt-3 case-study-heading">High-Performance Website for <span style="color:#009291">Gymnasium</span> </h4>
+							<p class="pt-3 case-study-text">We designed a bold, energetic, and conversion-driven website for Gymnasium — built to highlight fitness programs, showcase trainers, and drive membership sign-ups.</p>
 							<hr style="color:#009291">
 
 							<div class="stats-container my-5 md-ms-5">
 								<div class="row">
 									<div class="col-6 stat-item">
-										<div class="stat-number">187K+</div>
-										<div class="stat-description">Combined Reach</div>
+										<div class="stat-number">Modern UI/UX</div>
+										<div class="stat-description">Bold, modern Fitness layout</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">567+</div>
-										<div class="stat-description">Total Leads</div>
+										<div class="stat-number">Mobile Responsive</div>
+										<div class="stat-description">Fast & mobile responsive</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 75–130</div>
-										<div class="stat-description">Avg. Cost per Lead</div>
+										<div class="stat-number">Programs Showcase</div>
+										<div class="stat-description">Easy to explore Programs</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 39,400+</div>
-										<div class="stat-description">Total Spend</div>
+										<div class="stat-number">Membership Funnels</div>
+										<div class="stat-description">Built for sign-ups with CTA’s</div>
 									</div>
 								</div>
 							</div>
@@ -610,28 +621,28 @@
 							<img src="assets/images/case-studies/real-estate-web/header-web.webp" alt="Real Estate Web" class="img-fluid" width="100%" height="100%">
 						</div>
 						<div class="col-sm-12 col-md-12 col-lg-6 p-4">
-							<h4 class="pt-3 case-study-heading"><span style="color:#009291"> Real Estate Web: </span> Your Smart Solution for Buying, Selling & Renting Properties </h4>
-							<p class="pt-3 case-study-text">AppsNation ran multiple Meta ad campaigns for treatments like <b>BBL Moxi, Ultherapy, EMS, and Chemical Peel</b>, driving strong engagement and consistent conversions. Through targeted creatives and data-driven optimization, the
-								campaigns delivered <b>567+ leads</b> at an average <b>cost per lead between AED 75–130</b>, achieving excellent ROI for high-intent audiences.</p>
+							<h4 class="pt-3 case-study-heading"><span style="color:#009291"> Modern Real Estate</span>  Website for Avenue Real Estate</h4>
+							<p class="pt-3 case-study-text">We built a clean, modern, and conversion-focused real estate website for Avenue Real Estate, designed to showcase listings professionally and make property search effortless for users.
+</p>
 							<hr>
 
 							<div class="stats-container my-5 md-ms-5">
 								<div class="row">
 									<div class="col-6 stat-item">
-										<div class="stat-number">187K+</div>
-										<div class="stat-description">Combined Reach</div>
+										<div class="stat-number">UI/UX Revamp</div>
+										<div class="stat-description">Modern, clean, trust-driven</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">567+</div>
-										<div class="stat-description">Total Leads</div>
+										<div class="stat-number">Mobile Optimization</div>
+										<div class="stat-description">Fully mobile responsive</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 75–130</div>
-										<div class="stat-description">Avg. Cost per Lead</div>
+										<div class="stat-number">Property Search System</div>
+										<div class="stat-description">Fast & intuitive search system</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 39,400+</div>
-										<div class="stat-description">Total Spend</div>
+										<div class="stat-number">Lead Magnet</div>
+										<div class="stat-description">Built to convert with CTA</div>
 									</div>
 								</div>
 							</div>
@@ -647,27 +658,27 @@
 							<img src="assets/images/case-studies/travel-agency-web/header-web.webp" alt="Booking Web" class="img-fluid d-block mx-auto" width="100%" height="100%">
 						</div>
 						<div class="col-sm-12 col-md-12 col-lg-6 p-4">
-							<h4 class="pt-3 case-study-heading">152K+ Conversions for a <span style="color:#009291">Booking Web</span> </h4>
-							<p class="pt-3 case-study-text">Make your journey smooth and stress-free with Travelicious, our innovative web designed for travelers worldwide. It's more than just an web; it's your go-to partner for an effortless travel experience tailored to the modern adventurer.</p>
+							<h4 class="pt-3 case-study-heading"> <span style="color:#009291">Travel & Tour</span> Website for Travelicious </h4>
+							<p class="pt-3 case-study-text">We created a visually immersive and user-friendly travel website for Travelicious — designed to showcase destinations, highlight tour packages, and make trip planning effortless for travelers.</p>
 							<hr style="color:#009291">
 
 							<div class="stats-container my-5 md-ms-5">
 								<div class="row">
 									<div class="col-6 stat-item">
-										<div class="stat-number">738K+</div>
-										<div class="stat-description">Total Clicks</div>
+										<div class="stat-number">Modern UI/UX</div>
+										<div class="stat-description">Destination-focused layout</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">152K+</div>
-										<div class="stat-description">Total Conversions</div>
+										<div class="stat-number">Mobile Optimization</div>
+										<div class="stat-description">Fast & mobile responsive</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 75–130</div>
-										<div class="stat-description">Average Cost per Conversion</div>
+										<div class="stat-number">Tour Packages</div>
+										<div class="stat-description">Easy to browse Package & Itineraries</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 1.25M+</div>
-										<div class="stat-description">Total Spend</div>
+										<div class="stat-number">Booking Flow</div>
+										<div class="stat-description">More inquiries, faster bookings</div>
 									</div>
 								</div>
 							</div>
@@ -683,27 +694,29 @@
 							<img src="assets/images/case-studies/loyalty-web/header-web.webp" alt="Booking Web" class="img-fluid d-block mx-auto" width="100%" height="100%">
 						</div>
 						<div class="col-sm-12 col-md-12 col-lg-6 p-4">
-							<h4 class="pt-3 case-study-heading">152K+ Conversions for a <span style="color:#009291">Booking Web</span> </h4>
-							<p class="pt-3 case-study-text">Make your journey smooth and stress-free with Travelicious, our innovative web designed for travelers worldwide. It's more than just an web; it's your go-to partner for an effortless travel experience tailored to the modern adventurer.</p>
+							<h4 class="pt-3 case-study-heading"> <span style="color:#009291">Ecommerce Store</span>  — Modern, High-Conversion Website
+</h4>
+							<p class="pt-3 case-study-text">We built a fast, modern, and conversion-optimized ecommerce website — designed to showcase products clearly, improve user flow, and increase overall sales performance.
+</p>
 							<hr style="color:#009291">
 
 							<div class="stats-container my-5 md-ms-5">
 								<div class="row">
 									<div class="col-6 stat-item">
-										<div class="stat-number">738K+</div>
-										<div class="stat-description">Total Clicks</div>
+										<div class="stat-number">UI/UX Design</div>
+										<div class="stat-description">Product & Category focused</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">152K+</div>
-										<div class="stat-description">Total Conversions</div>
+										<div class="stat-number">Mobile Experience</div>
+										<div class="stat-description">Fast & fully mobile responsive</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 75–130</div>
-										<div class="stat-description">Average Cost per Conversion</div>
+										<div class="stat-number">Product Catalog</div>
+										<div class="stat-description">Simple & clear E-Com browsing</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 1.25M+</div>
-										<div class="stat-description">Total Spend</div>
+										<div class="stat-number">Booking Flow</div>
+										<div class="stat-description">More inquiries, faster bookings</div>
 									</div>
 								</div>
 							</div>
@@ -719,27 +732,27 @@
 							<img src="assets/images/case-studies/mover-web/header-web.webp" alt="Booking Web" class="img-fluid d-block mx-auto" width="100%" height="100%">
 						</div>
 						<div class="col-sm-12 col-md-12 col-lg-6 p-4">
-							<h4 class="pt-3 case-study-heading">152K+ Conversions for a <span style="color:#009291">Booking Web</span> </h4>
-							<p class="pt-3 case-study-text">Make your journey smooth and stress-free with Travelicious, our innovative web designed for travelers worldwide. It's more than just an web; it's your go-to partner for an effortless travel experience tailored to the modern adventurer.</p>
+							<h4 class="pt-3 case-study-heading"> <span style="color:#009291">Domestic Cargo & Shipping </span> Website for Deliverab</h4>
+							<p class="pt-3 case-study-text">We built a fast, reliable, and trust-focused website for Deliverables, designed to showcase their shipping with simplified rate inquiries, and help customers book cargo with ease</p>
 							<hr style="color:#009291">
 
 							<div class="stats-container my-5 md-ms-5">
 								<div class="row">
 									<div class="col-6 stat-item">
-										<div class="stat-number">738K+</div>
-										<div class="stat-description">Total Clicks</div>
+										<div class="stat-number">UI/UX Design</div>
+										<div class="stat-description">Clean, trustworthy, goal-focused</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">152K+</div>
-										<div class="stat-description">Total Conversions</div>
+										<div class="stat-number">Mobile Optimization</div>
+										<div class="stat-description">Fast & mobile responsive</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 75–130</div>
-										<div class="stat-description">Average Cost per Conversion</div>
+										<div class="stat-number">Service Flow</div>
+										<div class="stat-description">Dedicated service pages</div>
 									</div>
 									<div class="col-6 stat-item">
-										<div class="stat-number">AED 1.25M+</div>
-										<div class="stat-description">Total Spend</div>
+										<div class="stat-number">Booking System</div>
+										<div class="stat-description">More inquiries, faster bookings</div>
 									</div>
 								</div>
 							</div>
@@ -750,40 +763,7 @@
 
 
 				 
-				<div class="carousel-item">
-					<div class="row align-items-center bg-white">
-						<div class="col-sm-12 col-md-12 col-lg-6 text-center p-4">
-							<img src="assets/images/case-studies/real-estate-web/header-web.webp" alt="Booking Web" class="img-fluid d-block mx-auto" width="100%" height="100%">
-						</div>
-						<div class="col-sm-12 col-md-12 col-lg-6 p-4">
-							<h4 class="pt-3 case-study-heading">152K+ Conversions for a <span style="color:#009291">Booking Web</span> </h4>
-							<p class="pt-3 case-study-text">Make your journey smooth and stress-free with Travelicious, our innovative web designed for travelers worldwide. It's more than just an web; it's your go-to partner for an effortless travel experience tailored to the modern adventurer.</p>
-							<hr style="color:#009291">
-
-							<div class="stats-container my-5 md-ms-5">
-								<div class="row">
-									<div class="col-6 stat-item">
-										<div class="stat-number">738K+</div>
-										<div class="stat-description">Total Clicks</div>
-									</div>
-									<div class="col-6 stat-item">
-										<div class="stat-number">152K+</div>
-										<div class="stat-description">Total Conversions</div>
-									</div>
-									<div class="col-6 stat-item">
-										<div class="stat-number">AED 75–130</div>
-										<div class="stat-description">Average Cost per Conversion</div>
-									</div>
-									<div class="col-6 stat-item">
-										<div class="stat-number">AED 1.25M+</div>
-										<div class="stat-description">Total Spend</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
+				 
 			</div>
 
 			 
@@ -794,7 +774,6 @@
 				<button type="button" data-bs-target="#animalCarousel" data-bs-slide-to="3"></button>
 				<button type="button" data-bs-target="#animalCarousel" data-bs-slide-to="4"></button>
 				<button type="button" data-bs-target="#animalCarousel" data-bs-slide-to="5"></button>
-				<button type="button" data-bs-target="#animalCarousel" data-bs-slide-to="6"></button>
 			</div>
 		</div>
 	</div>
@@ -1007,7 +986,7 @@
 	<div class="row   justify-content-center hire-developer hire-developer-app-development">
 		<div class="col-lg-7">
 			<div class="free-cta-title v-center wow fadeIn">
-				<p class="text-center text-lg-start text-white">Hire  <span>web developer </span>in Dubai </p>
+				<p class="text-center text-lg-start text-white">Hire  <span>Web Developer </span>in Dubai </p>
 				<div class=" text-md-start  text-center">
 				<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
 					<a href="tel:+971543589543" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3"> +971543589543<i class="fas fa-chevron-right fa-ani"></i></a>
@@ -1715,7 +1694,7 @@
                             <span>Clients</span>
                         </div>
                         <h2 class="wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                        Some of our valued clients	
+                        Some Of Our Valued Clients	
                         </h2>
                     </div>
 			<div class="row justify-content-centermt-xl-5">
@@ -1852,8 +1831,154 @@
 
 
 
+ 
+<!--Start Testinomial-->
+	<section class="testimonials-section-app py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="common-heading text-start">
+						<h2 class="text-white">Here's what our <span>clients</span> have to say about <span>AppsNation</span></h2>
+						<h5 class="text-white">Over 1200+ Satisfied Clients and Growing</h5>
+					</div>
+				</div>
+			</div>
+<div class="row mt-5 wow fadeIn">
+    <div class="col-12">
+        <div class="video-carousel owl-carousel owl-theme">
+
+            <div class="video-card">
+                <div class="video-frame">
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/a5T_ysg1z1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-frame">
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/g6LfT8i_eCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-frame">
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/VdnFv9mJPis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-frame">
+                   <iframe width="100%" height="500" src="https://www.youtube.com/embed/XA98Ttygx3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+			
+
+			<!-- <div class="row mt-5">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+							<div class="card h-100">
+								<div class="card-body">
+									<a href="https://clutch.co/profile/appsnation#highlights" target="_blank">
+										<img src="assets/images/reviews/clutch.webp" class="img-fluid d-block mx-auto" alt="Clutch" width="auto" height="auto">
+										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+										<p class="text-center pt-2 text-black">Recognized as Top App Developers by Clutch</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-md-0">
+							<div class="card h-100">
+								<div class="card-body">
+									<a href="https://www.bark.com/en/us/company/appsnation/wGVQn/" target="_blank">
+										<img src="assets/images/reviews/bark.webp" class="img-fluid d-block mx-auto" alt="Bark" width="auto" height="auto">
+										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+										<p class="text-center pt-2 text-black">Recognized as Top App Developers by Bark</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-xl-0">
+							<div class="card h-100">
+								<div class="card-body">
+									<a href="https://www.designrush.com/agency/profile/appsnation" target="_blank">
+										<img src="assets/images/reviews/designrush.webp" class="img-fluid d-block mx-auto" alt="DesignRush" width="auto" height="auto">
+										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+										<p class="text-center pt-2 text-black">Recognized as Top App Developers by DesignRush</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-xl-0">
+							<div class="card h-100">
+								<div class="card-body">
+									<a href="https://www.goodfirms.co/company/appsnation-co" target="_blank">
+										<img src="assets/images/reviews/goodfirms.webp" class="img-fluid d-block mx-auto" alt="GoodFirms" width="auto" height="auto">
+										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+										<p class="text-center pt-2 text-black">Recognized as Top App Developers by GoodFirms</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3">
+							<div class="card h-100">
+								<div class="card-body">
+									<a href="https://www.trustpilot.com/review/appsnation.co" target="_blank">
+										<img src="assets/images/reviews/trustpilot.webp" class="img-fluid d-block mx-auto" alt="Trustpilot" width="auto" height="auto">
+										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+										<p class="text-center pt-2 text-black">Recognized as Top App Developers by Trustpilot</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3">
+							<div class="card h-100">
+								<div class="card-body">
+									<a href="https://www.sortlist.com/agency/appsnation" target="_blank">
+										<img src="assets/images/reviews/sortlist.webp" class="img-fluid d-block mx-auto" alt="Sortlist" width="auto" height="auto">
+										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+										<p class="text-center pt-2 text-black">Recognized as Top App Developers by Sortlist</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3">
+							<div class="card h-100">
+								<div class="card-body">
+									<a href="https://upcity.com/profiles/appsnation" target="_blank">
+										<img src="assets/images/reviews/upcity.webp" class="img-fluid d-block mx-auto" alt="UpCity" width="auto" height="auto">
+										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+										<p class="text-center pt-2 text-black">Recognized as Top App Developers by UpCity</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3">
+							<div class="card h-100">
+								<div class="card-body">
+									<a href="https://www.sitejabber.com/reviews/appsnation.co" target="_blank">
+										<img src="assets/images/reviews/sitejabber.webp" class="img-fluid d-block mx-auto" alt="SiteJabber" width="auto" height="auto">
+										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
+										<p class="text-center pt-2 text-black">Recognized as Top App Developers by SiteJabber</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</section>
+	<!--End Testinomial-->
+
+
 	   <!-- Start Industries -->
-        <section class="case-study-section fix section-padding">
+        <section class="case-study-section fix section-padding py-5">
 
            
             <div class="container">
@@ -1862,7 +1987,7 @@
                         <div class="sub-title wow fadeInUp">
                             <span>Industries We Serve</span>
                         </div>
-                        <h2 class="wow fadeInUp" data-wow-delay=".3s">Digital Marketing Solutions for Every Industry</h2>
+                        <h2 class="wow fadeInUp pt-4" data-wow-delay=".3s">Digital Marketing Solutions For Every Industry</h2>
                     </div>
                 </div>
                 <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">At <b>AppsNation</b>, we help businesses of all sizes and sectors grow online. From startups to established brands, our <b>AI-driven digital marketing services</b> deliver results across multiple industries.</p>
@@ -1994,16 +2119,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="d-flex justify-content-center wow fadeInUp mt-4" data-wow-delay=".7s">
-                            <div class="main-button">
-                                <a href="tel:+971551135229" class="theme-btn">
-                                    <span>Call Us</span>
-                                </a>
-                            </div>
-                            <div class="main-button">
-                                <a data-bs-toggle="modal" data-bs-target="#myModal" class="ms-3">
-                                    <span class="theme-btn">Schedule A Call</span>
-                                </a>
-                            </div>
+                          <div class=" text-md-start  text-center">
+				<a data-bs-toggle="modal" data-bs-target="#myModal" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3">Request a Quote <i class="fas fa-chevron-right fa-ani"></i></a>
+					<a href="tel:+971543589543" class="niwax-btn button-arounder btn wow fadeIn mt-3 py-2 px-3"> +971543589543<i class="fas fa-chevron-right fa-ani"></i></a>
+			</div>
                         </div>
                     </div>
                 </div>
@@ -2013,131 +2132,7 @@
     </section>
     <!-- End Industries -->
 	
-	<!--Start Testinomial-->
-	<section class="testimonials-section-app py-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="common-heading text-start">
-						<h2 class="text-white">Here's what our <span>clients</span> have to say about <span>AppsNation</span></h2>
-						<h5 class="text-white">Over 1200+ Satisfied Clients and Growing</h5>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="row mt-5">
-				<div class="col-md-6 col-lg-3">
-					<iframe width="100%" height="500" src="https://www.youtube.com/embed/a5T_ysg1z1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col-md-6 col-lg-3 mt-3 mt-md-0">
-					<iframe width="100%" height="500" src="https://www.youtube.com/embed/g6LfT8i_eCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col-md-6 col-lg-3 mt-3 mt-lg-0">
-					<iframe width="100%" height="500" src="https://www.youtube.com/embed/VdnFv9mJPis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-				<div class="col-md-6 col-lg-3 mt-3 mt-lg-0">
-					<iframe width="100%" height="500" src="https://www.youtube.com/embed/XA98Ttygx3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-				</div>
-			</div>
-
-			<!-- <div class="row mt-5">
-				<div class="col-12">
-					<div class="row">
-						<div class="col-12 col-md-6 col-lg-4 col-xl-3">
-							<div class="card h-100">
-								<div class="card-body">
-									<a href="https://clutch.co/profile/appsnation#highlights" target="_blank">
-										<img src="assets/images/reviews/clutch.webp" class="img-fluid d-block mx-auto" alt="Clutch" width="auto" height="auto">
-										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
-										<p class="text-center pt-2 text-black">Recognized as Top App Developers by Clutch</p>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-md-0">
-							<div class="card h-100">
-								<div class="card-body">
-									<a href="https://www.bark.com/en/us/company/appsnation/wGVQn/" target="_blank">
-										<img src="assets/images/reviews/bark.webp" class="img-fluid d-block mx-auto" alt="Bark" width="auto" height="auto">
-										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
-										<p class="text-center pt-2 text-black">Recognized as Top App Developers by Bark</p>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-xl-0">
-							<div class="card h-100">
-								<div class="card-body">
-									<a href="https://www.designrush.com/agency/profile/appsnation" target="_blank">
-										<img src="assets/images/reviews/designrush.webp" class="img-fluid d-block mx-auto" alt="DesignRush" width="auto" height="auto">
-										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
-										<p class="text-center pt-2 text-black">Recognized as Top App Developers by DesignRush</p>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3 mt-xl-0">
-							<div class="card h-100">
-								<div class="card-body">
-									<a href="https://www.goodfirms.co/company/appsnation-co" target="_blank">
-										<img src="assets/images/reviews/goodfirms.webp" class="img-fluid d-block mx-auto" alt="GoodFirms" width="auto" height="auto">
-										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
-										<p class="text-center pt-2 text-black">Recognized as Top App Developers by GoodFirms</p>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3">
-							<div class="card h-100">
-								<div class="card-body">
-									<a href="https://www.trustpilot.com/review/appsnation.co" target="_blank">
-										<img src="assets/images/reviews/trustpilot.webp" class="img-fluid d-block mx-auto" alt="Trustpilot" width="auto" height="auto">
-										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
-										<p class="text-center pt-2 text-black">Recognized as Top App Developers by Trustpilot</p>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3">
-							<div class="card h-100">
-								<div class="card-body">
-									<a href="https://www.sortlist.com/agency/appsnation" target="_blank">
-										<img src="assets/images/reviews/sortlist.webp" class="img-fluid d-block mx-auto" alt="Sortlist" width="auto" height="auto">
-										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
-										<p class="text-center pt-2 text-black">Recognized as Top App Developers by Sortlist</p>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3">
-							<div class="card h-100">
-								<div class="card-body">
-									<a href="https://upcity.com/profiles/appsnation" target="_blank">
-										<img src="assets/images/reviews/upcity.webp" class="img-fluid d-block mx-auto" alt="UpCity" width="auto" height="auto">
-										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
-										<p class="text-center pt-2 text-black">Recognized as Top App Developers by UpCity</p>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6 col-lg-4 col-xl-3 mt-3">
-							<div class="card h-100">
-								<div class="card-body">
-									<a href="https://www.sitejabber.com/reviews/appsnation.co" target="_blank">
-										<img src="assets/images/reviews/sitejabber.webp" class="img-fluid d-block mx-auto" alt="SiteJabber" width="auto" height="auto">
-										<img src="assets/images/reviews/star.webp" class="img-fluid d-block mx-auto" alt="Star" width="auto" height="auto">
-										<p class="text-center pt-2 text-black">Recognized as Top App Developers by SiteJabber</p>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-		</div>
-	</section>
-	<!--End Testinomial-->
+	
 
 
 
@@ -2292,9 +2287,15 @@
 	<div class="modal" id="myModal">
 		<div class="modal-dialog modal-xl modal-dialog-centered">
 			<div class="modal-content">
+				 <button type="button" class="btn-close modalCloseButton position-absolute top-0 end-0 m-3"
+                    data-bs-dismiss="modal" aria-label="Close" style="z-index: 9999; ">
+                </button>
 				<div class="modal-body">
 					<div class="row">
+
 						<div class="col-lg-5 pe-lg-0">
+                </button>
+
 							<div class="background">
 								<h2 class="text-white mb-2">Let's start a project together</h2>
 								<p class="text-white mb-2">We'll contact you within a couple of hours to schedule a meeting to discuss your goals.</p>
@@ -2342,7 +2343,7 @@
 	<a href="tel:+971543589543" class="Phone-sticky" target="_blank" rel="noopener noreferrer">
 		<i class="fa-solid fa-phone fa-flip-horizontal" style="color: #ffffff;"></i>
 	</a>
-	<a href="https://wa.me/+923432003860" class="whatsapp-sticky" target="_blank" rel="noopener noreferrer">
+	<a href="https://wa.me/+971543589543" class="whatsapp-sticky" target="_blank" rel="noopener noreferrer">
 		<i class="fa-brands fa-whatsapp"></i>
 	</a>
 

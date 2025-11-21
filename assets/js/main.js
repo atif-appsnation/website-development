@@ -493,10 +493,10 @@
 			    items: 3
 		    },
 		    1400: {
-			    items: 4
+			    items: 3
 		    },
 		    1600: {
-			    items: 4
+			    items: 3
 		    },
 		}
 	});
@@ -872,3 +872,26 @@ $('.tech-slider2').owlCarousel({
       }
     });
 // End by hassan portfoilo section 
+
+
+// by hassan video testimoniya slider
+$('.video-carousel').owlCarousel({
+    items: 3,
+    loop: true,
+    autoplay: true,
+    center: true,
+    margin: 25,
+    nav: false,
+    dots: true,
+    autoplayTimeout: 3500,
+    autoplayHoverPause: true,
+    smartSpeed: 900,
+    responsive: {
+        0: { items: 1 },
+        600: { items: 1 },
+        768: { items: 2 },
+        1200: { items: 3 }
+    }
+});
+
+// end hassan video testimoniya slider
