@@ -17467,9 +17467,9 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
 }
 
 /* For mobile phones (e.g., up to 768px) */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .header {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: row-reverse;     
         padding: 15px 4vw;
     }
   .logo {
@@ -17497,7 +17497,7 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     } 
 
     .logo img {
-        height: 35px; /* Slightly smaller logo */
+        height: 35px; 
     }
 
     .logo p {
@@ -17505,15 +17505,15 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     }
 
     .contact-info {
-        flex-direction: column; /* Stack contact details vertically */
-        gap: 10px; /* Reduce gap between stacked items */
+        flex-direction: column;  
+        gap: 10px; 
         width: 100%;
     }
 
     .call-us,
     .support {
         font-size: 13px;
-        width: 100%; /* Ensure they take full width */
+        width: 100%; 
         text-align: center;
     }
 
@@ -17523,12 +17523,12 @@ input::-ms-input-placeholder, textarea::-ms-input-placeholder {
     }
 
     .request-quote {
-        width: 90%; /* Make button take up more width */
-        max-width: 300px; /* Increase max width for better touch targets */
+        width: 90%;  
+        max-width: 300px;  
         padding: 12px 20px;
         font-size: 14px;
     }
-}
+} */
 
 /* For very small phones (e.g., up to 480px) */
 @media (max-width: 480px) {
