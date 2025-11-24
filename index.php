@@ -36,7 +36,7 @@
 		</div>
 		<div class="contact-info">
 
-			<button   class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal"><a href="tel:+971543589543"> </a> CALL US </button>
+			<a href="tel:+971543589543"> <button   class="request-quote" > CALL US </button></a>
 			<button id="callus" class="request-quote" data-bs-toggle="modal" data-bs-target="#myModal">REQUEST A QUOTE &gt;</button>
 
 		</div>
