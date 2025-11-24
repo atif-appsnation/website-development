@@ -874,7 +874,8 @@ $('.tech-slider2').owlCarousel({
 // End by hassan portfoilo section 
 
 
-// by hassan video testimoniya slider
+/* by hassan video testimonials slides */
+
 $('.video-carousel').owlCarousel({
     items: 3,
     loop: true,
@@ -893,5 +894,4 @@ $('.video-carousel').owlCarousel({
         1200: { items: 3 }
     }
 });
-
-// end hassan video testimoniya slider
+/* End hassan video testimonials slides */

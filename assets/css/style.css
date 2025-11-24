@@ -18084,7 +18084,7 @@ padding-bottom: 22px;
 }
 
 .section-title .sub-title span {
-    background: linear-gradient(90deg, #030303 0%, #000000 100%);
+    background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
     font-weight: 700;
     text-transform: uppercase;
     background-clip: text;
@@ -18472,7 +18472,7 @@ padding-bottom: 22px;
 	}
 }
 
-
+/* by hassan video testimonials */
 /* Card design */
 .video-card {
     background: #1B1B1B;
@@ -18532,3 +18532,4 @@ padding-bottom: 22px;
         height: 420px; /* Small screens */
     }
 }
+/* by hassan video testimonials */
